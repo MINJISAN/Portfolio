@@ -236,7 +236,7 @@
     "year": "2022",
     "type": "audio",
     "status": "Complete",
-    "src": "Resource/audio/sputnik.wav",
+    "src": "Resource/audio/sputnik.mp3",
     "description": "연극 음향/음악 작업. 프로젝트 운동장, 서강대학교 이머시브 홀.",
     "role": "음향 / 음악",
     "form": "연극",
