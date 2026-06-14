@@ -481,8 +481,8 @@
     "year": "2019",
     "type": "image",
     "status": "Complete",
-    "thumb": "assets/works/train91-thumb.png",
-    "src": "assets/works/train91-thumb.png",
+    "thumb": "",
+    "src": "",
     "link": "Resource/pdf/train91.pdf",
     "description": "레몽 크노의 수식화 기법을 활용해 창작한 희곡. 죽음·트라우마·신앙을 주제로, 이야기가 진행될수록 텍스트가 점점 해체되고 수식화된다.",
     "role": "디자인 / 작가 / 영상",
@@ -495,11 +495,11 @@
     "media": [
       {
         "type": "image",
-        "src": "assets/works/train91-thumb.png"
+        "src": "assets/works/train91/train91_thumb.png"
       },
       {
         "type": "pdf",
-        "src": "E:\\GitHub\\Portfolio\\Resource/pdf/train91.pdf"
+        "src": "Resource/pdf/train91.pdf"
       }
     ]
   },
