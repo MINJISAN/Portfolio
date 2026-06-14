@@ -592,12 +592,16 @@
     "credits": "Director 민지산·박세원·신유진·이시훈 · Movement Director 민지산·박세원·신유진·이시훈 · Sound Designer 민지산 · Cinematographer 민지산·박세원 · Video Designer 민지산·박세원 · Performer 김가현·김다영·김재영·김하늘·김현지·박찬우·배하영·서상교·시현수·신범균·이수현·이은석·이하늘·이화승·장혜수·조세희·허솔·황지현",
     "media": [
       {
-        "type": "image",
+        "type": "youtube",
         "src": "q9v-SqU_cgY"
       },
       {
-        "type": "image",
+        "type": "youtube",
         "src": "GpNwfUwIxbM"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/10-4-3-2-1/10-4-3-2-1_thumb.png"
       }
     ],
     "youtube": ""
@@ -609,7 +613,7 @@
     "year": "2018",
     "type": "image",
     "status": "Complete",
-    "src": "https://youtu.be/JGGj3jpsTvM?si=zDBPuT-rMLb2accy",
+    "src": "",
     "description": "",
     "role": "기획 / 영상",
     "form": "설치",
@@ -617,12 +621,12 @@
     "date": "2018",
     "note": "",
     "credits": "민지산박세원",
-    "youtube": "",
+    "youtube": "https://youtu.be/JGGj3jpsTvM",
     "thumb": "",
     "media": [
       {
-        "type": "image",
-        "src": "https://youtu.be/JGGj3jpsTvM?si=zDBPuT-rMLb2accy"
+        "type": "youtube",
+        "src": "JGGj3jpsTvM"
       }
     ]
   },
