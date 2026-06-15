@@ -899,6 +899,7 @@ code {
     grid-row: 1 / -1;
     grid-column: 1;
     align-self: stretch;
+    padding-right: 6px;
   }
 
   .ct {
