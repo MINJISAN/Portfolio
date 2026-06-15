@@ -899,6 +899,7 @@ code {
     grid-row: 1;
     grid-column: 1;
     padding-bottom: 0;
+    border-right: 0;
   }
 
   .ct {
@@ -913,7 +914,7 @@ code {
 
   .cr {
     grid-row: 2;
-    grid-column: 1 / -1;
+    grid-column: 2;
     border-right: 0;
     padding-top: 2px;
     padding-bottom: 8px;
@@ -939,6 +940,6 @@ code {
   }
 
   .about-row {
-    grid-template-columns: 110px 1fr;
+    grid-template-columns: 90px 1fr;
   }
 }
