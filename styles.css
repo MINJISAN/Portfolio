@@ -891,7 +891,7 @@ code {
 
 @media (max-width: 720px) {
   .career-row {
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 44px 1fr;
     grid-template-rows: auto auto;
   }
 
