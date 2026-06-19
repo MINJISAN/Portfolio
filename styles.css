@@ -866,8 +866,13 @@ code {
 }
 
 .cy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
   color: var(--muted);
   font-size: 12px;
+  text-align: center;
 }
 
 .ct em {
@@ -899,7 +904,11 @@ code {
     grid-row: 1 / -1;
     grid-column: 1;
     align-self: stretch;
-    padding-right: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
   }
 
   .ct {
