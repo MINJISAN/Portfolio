@@ -51,7 +51,12 @@
           </label>
           <label>
             <span>Genre</span>
-            <input id="work-genre" required placeholder="Video Art, Music, Installation..." />
+            <select id="work-genre" required>
+              <option value="Originals">Originals</option>
+              <option value="Video">Video</option>
+              <option value="Sound">Sound</option>
+              <option value="Design">Design</option>
+            </select>
           </label>
           <label>
             <span>Year</span>
@@ -118,6 +123,7 @@
             <button type="submit">Save</button>
             <button type="button" id="new-work">New</button>
             <button type="button" id="delete-work">Delete</button>
+            <button type="button" id="save-to-script">Save to script.js</button>
             <button type="button" id="export-data">Export JSON</button>
             <label class="import-button">
               Import JSON

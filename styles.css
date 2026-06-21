@@ -538,6 +538,7 @@ code {
   max-width: none;
   height: min(760px, calc(100vh - 24px));
   max-height: none;
+  overflow: hidden;
   border: 1px solid var(--line);
   background: var(--bg);
   color: var(--fg);
@@ -550,8 +551,7 @@ code {
 
 .detail-panel {
   position: relative;
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 340px;
+  display: flex;
   height: 100%;
 }
 
@@ -567,9 +567,12 @@ code {
 }
 
 .detail-media {
-  display: grid;
-  min-height: 0;
-  place-items: center;
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
   border-right: 1px solid var(--line);
   background: #050505;
 }
@@ -577,13 +580,31 @@ code {
 .detail-media img,
 .detail-media video,
 .detail-media iframe {
-  width: 100%;
-  height: 100%;
   border: 0;
   object-fit: contain;
 }
 
+.detail-media > img {
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
+}
+
+.detail-media > video {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.detail-media > .media-carousel,
+.detail-media > .yt-thumb,
+.detail-media > iframe {
+  align-self: stretch;
+  width: 100%;
+  height: 100%;
+}
+
 .audio-stage {
+  place-self: center;
   display: grid;
   width: min(560px, calc(100% - 32px));
   gap: 24px;
@@ -595,6 +616,7 @@ code {
 }
 
 .empty-media {
+  place-self: center;
   max-width: 420px;
   padding: 16px;
   color: var(--muted);
@@ -646,7 +668,13 @@ code {
   place-items: center;
 }
 
-.carousel-stage > img,
+.carousel-stage > img {
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
+  border: 0;
+}
+
 .carousel-stage > video,
 .carousel-stage > iframe {
   width: 100%;
@@ -691,6 +719,7 @@ code {
 }
 
 .detail-info {
+  flex: 0 0 340px;
   display: flex;
   flex-direction: column;
   gap: 18px;
@@ -756,14 +785,18 @@ code {
   }
 
   .detail-panel {
-    grid-template-columns: 1fr;
-    grid-template-rows: minmax(280px, 1fr) auto;
+    flex-direction: column;
     overflow: auto;
   }
 
   .detail-media {
+    flex: 0 0 280px;
     border-right: 0;
     border-bottom: 1px solid var(--line);
+  }
+
+  .detail-info {
+    flex: 0 0 auto;
   }
 }
 
