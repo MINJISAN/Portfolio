@@ -239,6 +239,34 @@ dd {
   font-size: 12px;
 }
 
+.field-label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.editor-form .field-toggle {
+  background: none;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.editor-form .field-toggle:hover {
+  color: var(--fg);
+}
+
+label[data-toggleable].field-off .field-label-row > span:first-child {
+  opacity: 0.45;
+}
+
+label[data-toggleable].field-off input {
+  display: none;
+}
+
 .editor-form input,
 .editor-form select,
 .editor-form textarea {
@@ -626,7 +654,9 @@ code {
 
 .yt-thumb {
   position: relative;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
 }
@@ -666,6 +696,7 @@ code {
   min-height: 0;
   display: grid;
   place-items: center;
+  grid-template-rows: 100%;
 }
 
 .carousel-stage > img {
@@ -725,6 +756,10 @@ code {
   gap: 18px;
   padding: 48px 16px 16px;
   overflow-y: auto;
+}
+
+#detail-description {
+  white-space: pre-line;
 }
 
 .detail-credits {

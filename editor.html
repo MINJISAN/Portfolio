@@ -99,9 +99,13 @@
             <span>Form</span>
             <input id="work-form-field" placeholder="게임, 연극, 무용, 미디어아트..." />
           </label>
-          <label>
-            <span>Venue</span>
+          <label data-toggleable>
+            <span class="field-label-row"><span>Venue</span><button type="button" class="field-toggle">−</button></span>
             <input id="work-venue" placeholder="공연장 · 단체" />
+          </label>
+          <label data-toggleable>
+            <span class="field-label-row"><span>By</span><button type="button" class="field-toggle">−</button></span>
+            <input id="work-by" placeholder="아티스트 · 클라이언트" />
           </label>
           <label>
             <span>Date</span>
@@ -170,6 +174,6 @@
     </dialog>
 
     <script src="thumbs.js"></script>
-    <script src="script.js?v=20260510-private-editor"></script>
+    <script src="script.js?v=20260621-thumb-live"></script>
   </body>
 </html>

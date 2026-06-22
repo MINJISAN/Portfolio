@@ -7,15 +7,16 @@ const defaultWorks = [
     "type": "image",
     "status": "Complete",
     "src": "",
-    "description": "게임 디렉터. base0, 2025 PlayX4 · BIC Festival 참가.",
-    "role": "게임 디렉터",
+    "description": "1940년대 디젤펑크 세계관과 버뮤다 심해 탐사를 소재로 한 호러 전략 어드벤처 게임. 플레이어는 실종된 언니를 찾기 위해 잠수구 바티스피어에 탑승하고, 정체불명의 적들과 반복되는 전투와 타임루프를 겪게 된다.",
+    "role": "디렉터",
     "form": "게임",
-    "venue": "base0",
+    "venue": "2025 PlayX4 · 2025 BIC Festival · 2025 Beaver Rocks · 2026 TIGS",
     "date": "2025 —",
-    "note": "2025 PlayX4 · BIC Festival · Beaver Rocks 참가. 2026 TIGS 참가.",
+    "note": "2026 TIGS Brain Spark Nominated",
     "credits": "Director minjisan · Game Design minjisan·elsaABBA · Programmer Cho WoongOh·Shim Kyubeom · Art Baehatrice · Sound issyun",
     "youtube": "https://youtu.be/XC0J9myfhRk?si=wfvOqEWuEUeyHjBZ",
-    "thumb": ""
+    "thumb": "",
+    "by": "base0"
   },
   {
     "id": "suldambal",
@@ -29,17 +30,18 @@ const defaultWorks = [
     "role": "음향 / 음악",
     "form": "연극",
     "venue": "한국예술종합학교 실험무대",
-    "date": "2025",
+    "date": "2025.10.16 - 18",
     "note": "",
-    "credits": "음향·음악 민지산",
+    "credits": "배우 김유림·김이현·박준형·우승우·이상엽·이서연·이지수 · 목소리 이명준 · 작 오정민 · 연출 안정빈 · 기획 정유진 · 조연출 박미경 · 무대감독 박서현 · 무대디자이너 최세현 · 조명디자이너 이지현 · 소품디자이너 배연재 · 영상디자이너 박소라 · 사운드디자이너 민지산 · 그래픽디자이너·촬영 최범규 · 지도교수 윤한솔 · 연기지도 이승원 · 기술지원 융합예술센터 아트콜라이더랩 · 기술감독 임건수 · 조명감독 홍선화 · 음향감독 고대현 · 제작주임 송기선 · 제작감독 송채은·이은혜 · 제작 한국예술종합학교 연극원",
     "youtube": "",
-    "thumb": "",
+    "thumb": "assets/works/suldambal/suldambal_thumb.jpg",
     "media": [
       {
         "type": "audio",
         "src": "Resource/audio/Entrophy_Curtaincall.mp3"
       }
-    ]
+    ],
+    "by": ""
   },
   {
     "id": "barcode-2025",
@@ -52,10 +54,10 @@ const defaultWorks = [
     "description": "",
     "role": "음향 / 음악",
     "form": "무용",
-    "venue": "2025 PAMS · TOB Group",
-    "date": "2025",
+    "venue": "2025 PAMS · 대학로예술극장 대극장",
+    "date": "2025.10.21 - 22",
     "note": "",
-    "credits": "",
+    "credits": "안무·연출 김민 · 무대감독 이도엽 · 음악감독·작곡 민지산 · 드라마투르기 조예은 · 마술디자이너 신희용 · 출연(무용수) 이마드리드·조영재·김연아·김종우·박주환·이창민·박세진·조선재·이예림·손지원",
     "youtube": "",
     "thumb": "",
     "media": [
@@ -63,7 +65,8 @@ const defaultWorks = [
         "type": "audio",
         "src": "Resource/audio/6. Techno.mp3"
       }
-    ]
+    ],
+    "by": "TOB Group"
   },
   {
     "id": "prompt-body",
@@ -76,36 +79,19 @@ const defaultWorks = [
     "description": "",
     "role": "음악",
     "form": "무용",
-    "venue": "제46회 서울무용제 · 박정무",
-    "date": "2025",
+    "venue": "제46회 서울무용제 · 아르코예술극장 대극장",
+    "date": "2025.12.04",
     "note": "",
-    "credits": "",
+    "credits": "안무 박정무 · 음악 민지산",
     "youtube": "",
-    "thumb": "",
+    "thumb": "assets/works/prompt-body/서울무용제_5.jpg",
     "media": [
       {
         "type": "audio",
         "src": "Resource/audio/Prompt Body_1120.mp3"
       }
-    ]
-  },
-  {
-    "id": "pocheon",
-    "title": "포천 군번 없는 영웅 독수리 유격대",
-    "genre": "Video",
-    "year": "2024",
-    "type": "video",
-    "status": "Complete",
-    "src": "",
-    "description": "",
-    "role": "영상",
-    "form": "연극",
-    "venue": "포천 반월아트홀 소극장 · 포천시립극단",
-    "date": "2024",
-    "note": "",
-    "credits": "영상 민지산",
-    "youtube": "",
-    "thumb": ""
+    ],
+    "by": "박정무"
   },
   {
     "id": "barcode",
@@ -116,14 +102,15 @@ const defaultWorks = [
     "status": "Complete",
     "src": "",
     "description": "",
-    "role": "영상 / 음악",
+    "role": "기획 / 영상 / 음악",
     "form": "영상·무용",
-    "venue": "TOB Group",
+    "venue": "",
     "date": "2024",
     "note": "",
-    "credits": "영상·음악 민지산",
+    "credits": "",
     "youtube": "https://youtu.be/JdozHHw-Cm4?si=NbkKGhfWPAjDKycR",
-    "thumb": ""
+    "thumb": "",
+    "by": "TOB Group"
   },
   {
     "id": "hynpytol",
@@ -135,14 +122,21 @@ const defaultWorks = [
     "thumb": "assets/works/hynpytol-thumb.png",
     "src": "assets/works/hynpytol-thumb.png",
     "link": "Resource/pdf/hynpytol.pdf",
-    "description": "면역계의 self/non-self 구분을 모티프로 한 인디 게임. T세포가 되어 신체 내부를 탐험하며 소속과 배제의 메커니즘, 사회적 연대의 과정을 경험한다.",
+    "description": "흰피톨은 인체 면역계를 배경으로 한 퍼즐 어드벤처 게임이다. 플레이어는 선택받은 킬러 T세포가 되어 무너져가는 면역계를 탐험하며 병원체의 위협으로부터 세계를 구하기 위한 여정을 떠난다.\n\n게임의 핵심은 단 하나의 행동인 ‘하이파이브’에 있다. 이동, 대화, 상호작용, 퍼즐 해결, 감염 세포 처리까지 모든 행동이 손을 이용한 하나의 메커니즘으로 연결되며, 이를 통해 단순한 조작 안에서 깊이 있는 퍼즐과 탐험을 구현한다.\n\n90년대 게임보이 컬러 시대의 픽셀 그래픽과 사운드에서 영감을 받은 HYNPYTOL은 고전 게임의 감성을 현대적으로 재해석한 독창적인 아트 스타일을 선보인다. 또한 면역계의 다양한 세포와 생물학적 개념을 세계관과 게임플레이에 녹여내어, 플레이어가 자연스럽게 면역 시스템의 원리를 탐험하고 이해할 수 있도록 구성하였다.",
     "role": "게임 디렉터",
     "form": "게임",
-    "venue": "base0",
-    "date": "2023",
+    "venue": "2023 BIC · 2023 Burning Beaver · 2024 G-STAR",
+    "date": "2023.09.22",
     "note": "2023 BIC Festival Excellence in Game Design · 2023 Burning Beaver 크리에이터 픽 · 2023 GIGDC 대학부 은상 · 2023 Indieplus Awards 대상 · 2024 이달의 우수게임",
-    "credits": "Director minjisan · Game Design minjisan·elsaABBA · Programmer Cho WoongOh·Min Woobin · Art BitBits · Sound issyun · PM Nam Hyunuk · Scenario minjisan·ElsaABBA · Localization issyun, Masa Kei, Zheng Sheng×2, Iwan Gabovitch",
-    "youtube": "https://youtu.be/0Rb0MLkgT4E"
+    "credits": "Director minjisan · Game Design minjisan·elsaABBA · Programmer Cho WoongOh·Min Woobin · Art BitBits · Sound issyun · PM Nam Hyunuk · Scenario minjisan·ElsaABBA · English Localization issyun · Japanese Localization Masa Kei · Chinese Localization Zheng Sheng · German Localization Iwan Gabovitch",
+    "youtube": "https://youtu.be/0Rb0MLkgT4E",
+    "by": "base0",
+    "media": [
+      {
+        "type": "image",
+        "src": "assets/works/hynpytol-thumb.png"
+      }
+    ]
   },
   {
     "id": "gabriel",
@@ -151,23 +145,56 @@ const defaultWorks = [
     "year": "2023",
     "type": "image",
     "status": "Complete",
-    "thumb": "assets/works/gabriel-thumb.png",
-    "src": "assets/works/gabriel-thumb.png",
+    "thumb": "assets/works/gabriel/아카이브1.PNG",
+    "src": "assets/works/gabriel/아카이브1.PNG",
     "link": "Resource/pdf/gabriel.pdf",
-    "description": "부피는 유한하나 표면적이 무한한 가브리엘의 나팔을 모티프로, 유한한 사물에서 무한히 뻗어나가는 이야기와 괴담을 탐구하는 인터랙티브 미디어아트.",
+    "description": "가브리엘의 나팔은 부피는 유한하지만 표면적이 무한한 기하학적 도형이다. 우린 절대로 답을 낼 수 없는 현상에 대한 이유에 대해 어떤 식으로든 설명하고 싶어한다. 그래서 여러 현상을 엮어 의미를 부여하고 이야기를 창조한다. 유한한 사물에서 무한히 뻗어나가는 이야기. 그것은 때로는 괴담이 되고, 때로는 재미없는 농담이 된다. 당신은 이제 끊임없이 얽힌 그들을 마주한다.",
     "role": "기획 / 음악 / 작가",
     "form": "인터랙티브 미디어아트",
-    "venue": "2023 Art & Technology Conference · PCM",
-    "date": "2023",
+    "venue": "2023 Art & Technology Conference",
+    "date": "2023.11.24 - 28",
     "note": "",
     "credits": "Director 강소연·민지산·배하영·조예진 · Writer 배하영·민지산 · 3D Artist 배하영 · Sound Designer 민지산 · Programmer 강소연·조예진",
     "youtube": "https://youtu.be/9VhOb6zZRow",
     "media": [
       {
         "type": "image",
+        "src": "assets/works/gabriel/아카이브1.PNG"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/gabriel/아카이브2.PNG"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/gabriel/아카이브3.PNG"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/gabriel/아카이브4.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/gabriel/아카이브1.PNG"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/gabriel/아카이브2.PNG"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/gabriel/아카이브3.PNG"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/gabriel/아카이브4.png"
+      },
+      {
+        "type": "image",
         "src": "assets/works/gabriel-thumb.png"
       }
-    ]
+    ],
+    "by": "PCM (Pulse-Code Modulators)"
   },
   {
     "id": "ibyeol",
@@ -180,54 +207,64 @@ const defaultWorks = [
     "description": "",
     "role": "음향 / 음악",
     "form": "연극",
-    "venue": "대한민국 신진연출가전 브릿지 · 팀 나선",
-    "date": "2023",
+    "venue": "대한민국 신진연출가전 브릿지 · 나온씨어터 팀 나선",
+    "date": "2023.06.27 - 28",
     "note": "",
-    "credits": "음향·음악 민지산",
+    "credits": "작/연출 노세인 · 기획 한정민 · 무대 남경민 · 조명 유혜연 · 음향·음악 민지산 · 홍보디자인 강혜진 · 그래픽디자인 박태양 · 조연출 서예주",
     "youtube": "",
-    "thumb": "",
+    "thumb": "assets/works/ibyeol/ibyeol_thumb.jpg",
     "media": [
       {
         "type": "audio",
         "src": "Resource/audio/ibyeol.mp3"
       }
-    ]
-  },
-  {
-    "id": "in-ear",
-    "title": "인-이어",
-    "genre": "Video",
-    "year": "2023",
-    "type": "video",
-    "status": "Complete",
-    "src": "",
-    "description": "",
-    "role": "영상 / 음악",
-    "form": "연극",
-    "venue": "데뷔를 대비하라 · 노세인",
-    "date": "2023",
-    "note": "",
-    "credits": "영상·음악 민지산",
-    "youtube": "",
-    "thumb": ""
+    ],
+    "by": "팀 나선"
   },
   {
     "id": "cr3ature",
     "title": "CR3ATURE",
     "genre": "Originals",
     "year": "2022",
-    "type": "video",
+    "type": "image",
     "status": "Complete",
-    "thumb": "assets/works/cr3ature-thumb.jpg",
-    "src": "",
-    "description": "언택트 시대에 AI와 인간을 구분할 수 있는가? VR Chat으로 제작한 단편 영화. 호기심과 진리를 추구하는 열망이 인간다움의 경계를 결정하는지 탐구한다.",
+    "thumb": "assets/works/cr3ature/2.png",
+    "src": "assets/works/cr3ature/2.png",
+    "description": "CR3ATURE는 인간과 인공지능의 경계에 대한 질문에서 출발한 VR 기반 영화 작품이다. 작품은 기술의 발전과 함께 인간이 만들어낸 새로운 지성체가 인간다움을 어떻게 모방하고 이해하는지 탐구하며, 과연 무엇이 인간을 인간답게 만드는지 되묻는다.\n\n언택트 사회가 일상이 된 미래를 배경으로, 작품은 인간과 인공지능을 구분하는 기준이 무엇인지 질문한다. 감각하고, 사고하고, 말하는 능력만으로 인간성을 정의할 수 있는가? 만약 호기심과 진리를 추구하려는 의지가 인간의 본질이라면, 그러한 의지가 없는 인간은 여전히 인간이라 할 수 있는가?\n\nVR 플랫폼을 무대로 펼쳐지는 CR3ATURE는 인간과 인공지능, 현실과 가상, 육체와 의식 사이의 모호한 경계를 드러낸다. 이를 통해 기술과 함께 변화하는 인간 존재의 의미와, 인간다움에 대한 다양한 관점을 제시한다.",
     "role": "연출 / 영상 / 음향 / 배우",
     "form": "단편영화",
     "venue": "VR Chat",
     "date": "2022",
     "note": "",
     "credits": "Director 민지산 · Writer 민지산·이화승·OPIATKEVICH LIDZIYA · Cinematographer 민지산 · Sound Designer 민지산 · Editor 민지산·한정연 · Actor 민지산·이화승·이석현·한정연·OPIATKEVICH LIDZIYA · Voice Actor 이가윤·민지산·한정연 · Translator OPIATKEVICH LIDZIYA·이화승·이시훈·이가윤",
-    "youtube": "https://youtu.be/dUQzpb3Zpjw"
+    "youtube": "https://youtu.be/dUQzpb3Zpjw",
+    "by": "",
+    "media": [
+      {
+        "type": "image",
+        "src": "assets/works/cr3ature/2.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/cr3ature/3.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/cr3ature/4.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/cr3ature/12.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/cr3ature/15.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/cr3ature/sky.png"
+      }
+    ]
   },
   {
     "id": "sputnik",
@@ -237,13 +274,22 @@ const defaultWorks = [
     "type": "audio",
     "status": "Complete",
     "src": "Resource/audio/sputnik.mp3",
-    "description": "연극 음향/음악 작업. 프로젝트 운동장, 서강대학교 이머시브 홀.",
+    "description": "",
     "role": "음향 / 음악",
     "form": "연극",
-    "venue": "서강대학교 이머시브 홀 · 프로젝트 운동장",
-    "date": "2022",
+    "venue": "서강대학교 이머시브 홀",
+    "date": "2022.07.07 - 10",
     "note": "",
-    "credits": "음향·음악 민지산"
+    "credits": "연출 이해인 · 기획 이가영·장혜민 · 무대 남경민·조은기 · 영상디자인 조예진 · 조명 신지수 · 음향 민지산 · 촬영 예주은 · 사진 류권우 · 디자인 이정근 · 크루 이충녕",
+    "thumb": "",
+    "by": "프로젝트 운동장",
+    "youtube": "",
+    "media": [
+      {
+        "type": "audio",
+        "src": "Resource/audio/sputnik.mp3"
+      }
+    ]
   },
   {
     "id": "species-origin",
@@ -256,12 +302,13 @@ const defaultWorks = [
     "description": "",
     "role": "영상",
     "form": "뮤지컬",
-    "venue": "대학로 드림아트센터 · 뷰티풀웨이",
-    "date": "2022",
+    "venue": "대학로 드림아트센터",
+    "date": "2022.12.18 - 2023.03.05",
     "note": "",
-    "credits": "원작\n정유정 <종의 기원>\n극\n고윤영\n음악\nBrandon Lee",
+    "credits": "프로듀서 권진상 · 연출 이기쁨 · 작곡 브랜든 리·강하님 · 각색 김윤영 · 음악감독 이성준 · 영상감독 고동욱",
     "youtube": "",
-    "thumb": ""
+    "thumb": "",
+    "by": "뷰티풀웨이"
   },
   {
     "id": "oraeden",
@@ -271,13 +318,22 @@ const defaultWorks = [
     "type": "audio",
     "status": "Complete",
     "src": "Resource/audio/crevice6.mp3",
-    "description": "퍼포먼스 음향/음악 작업. 1M SPACE, 구상성단작전.",
+    "description": "",
     "role": "음향 / 음악",
-    "form": "퍼포먼스",
-    "venue": "1M SPACE · 구상성단작전",
-    "date": "2021",
+    "form": "이머시브 공연 전시",
+    "venue": "1M SPACE",
+    "date": "2021.11.20 - 21",
     "note": "",
-    "credits": "음향·음악 민지산 · 구상성단작전"
+    "credits": "주최·주관 프로젝트1인실·구상성단작전 · 협력 동타 · 극작·기획 김주옥 · 연출 박찬호·이화승 · 음악 민지산 · 도움 Chloe · 촬영 이화승·이재훈 · 촬영 어시스트 안유진 · 메이크업 김민서",
+    "thumb": "",
+    "by": "구상성단작전",
+    "youtube": "",
+    "media": [
+      {
+        "type": "audio",
+        "src": "Resource/audio/crevice6.mp3"
+      }
+    ]
   },
   {
     "id": "demian",
@@ -286,16 +342,27 @@ const defaultWorks = [
     "year": "2021",
     "type": "image",
     "status": "Complete",
-    "src": "",
+    "src": "assets/works/demian/274923_95702_4611.png",
     "description": "",
     "role": "영상",
     "form": "연극",
-    "venue": "부평아트센터 달누리 극장 · 극공작소 마방진",
-    "date": "2021",
+    "venue": "부평아트센터 달누리 극장",
+    "date": "2021.10.21 - 22",
     "note": "",
-    "credits": "원작\n헤르만 헤세\n작\n안준원\n연출\n서정완\n주최\n강동문화재단, 극공작소 마방진\n후원\n서울특별시, 서울문화재단, 한국문화예술위원회",
+    "credits": "원작 헤르만헤세 · 프로듀서 고강민 · 작가 안준원 · 연출 서정완 · 음악감독 민찬홍 · 무대·영상 시노그래퍼 고동욱 · 무대디자이너 설예준 · 조명디자이너 최보윤 · 영상디자이너 김상완 · 분장디자이너 석필선 · 무대감독 이묵수 · 조연출 백혜린·홍단비 · 제작PD 이은경 · 프로젝트매니저 김혜민 · 기획팀 방범비·양세훈 · 컴퍼니매니저 윤희선 · 제작 극공작소 마방진",
     "youtube": "",
-    "thumb": ""
+    "thumb": "assets/works/demian/274923_95702_4611.png",
+    "by": "극공작소 마방진",
+    "media": [
+      {
+        "type": "image",
+        "src": "assets/works/demian/274923_95702_4611.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/demian/demian.jpg"
+      }
+    ]
   },
   {
     "id": "beomram",
@@ -308,12 +375,13 @@ const defaultWorks = [
     "description": "",
     "role": "아트워크",
     "form": "시각디자인",
-    "venue": "때와곳",
-    "date": "2023",
+    "venue": "",
+    "date": "2023.07.13",
     "note": "",
-    "credits": "민지산",
+    "credits": "",
     "youtube": "",
-    "thumb": ""
+    "thumb": "",
+    "by": "때와곳"
   },
   {
     "id": "2004-simonoseki",
@@ -326,12 +394,13 @@ const defaultWorks = [
     "description": "",
     "role": "아트워크",
     "form": "시각디자인",
-    "venue": "때와곳",
-    "date": "2022",
+    "venue": "",
+    "date": "2022.07.28",
     "note": "",
-    "credits": "민지산",
+    "credits": "",
     "youtube": "",
-    "thumb": ""
+    "thumb": "",
+    "by": "때와곳"
   },
   {
     "id": "sunsetblue",
@@ -344,12 +413,13 @@ const defaultWorks = [
     "description": "",
     "role": "아트워크",
     "form": "시각디자인",
-    "venue": "김갑세",
-    "date": "2022",
+    "venue": "",
+    "date": "2022.02.15",
     "note": "",
-    "credits": "민지산",
+    "credits": "",
     "youtube": "",
-    "thumb": ""
+    "thumb": "",
+    "by": "김갑세"
   },
   {
     "id": "seoldeurin-jam",
@@ -359,13 +429,16 @@ const defaultWorks = [
     "type": "image",
     "status": "Complete",
     "src": "",
-    "description": "시각디자인 아트워크. 때와곳.",
+    "description": "",
     "role": "아트워크",
     "form": "시각디자인",
-    "venue": "때와곳",
-    "date": "2021",
+    "venue": "",
+    "date": "2021.11.30",
     "note": "",
-    "credits": "민지산"
+    "credits": "",
+    "thumb": "",
+    "by": "때와곳",
+    "youtube": ""
   },
   {
     "id": "juldari-gi",
@@ -378,12 +451,13 @@ const defaultWorks = [
     "description": "",
     "role": "아트워크",
     "form": "시각디자인",
-    "venue": "때와곳",
-    "date": "2021",
+    "venue": "",
+    "date": "2021.05.11",
     "note": "",
-    "credits": "민지산",
+    "credits": "",
     "youtube": "",
-    "thumb": ""
+    "thumb": "",
+    "by": "때와곳"
   },
   {
     "id": "monsun",
@@ -396,12 +470,13 @@ const defaultWorks = [
     "description": "",
     "role": "아트워크",
     "form": "시각디자인",
-    "venue": "때와곳",
-    "date": "2020",
+    "venue": "",
+    "date": "2020.08.04",
     "note": "",
-    "credits": "민지산",
+    "credits": "",
     "youtube": "",
-    "thumb": ""
+    "thumb": "",
+    "by": "때와곳"
   },
   {
     "id": "saengil-yeojeong",
@@ -417,7 +492,8 @@ const defaultWorks = [
     "venue": "때와곳",
     "date": "2020",
     "note": "",
-    "credits": "민지산"
+    "credits": "민지산",
+    "thumb": ""
   },
   {
     "id": "gyejeolpung",
@@ -426,16 +502,35 @@ const defaultWorks = [
     "year": "2019",
     "type": "image",
     "status": "Complete",
-    "src": "",
+    "src": "assets/works/gyejeolpung/무뢰배 시안2.png",
     "description": "",
     "role": "아트워크",
     "form": "시각디자인",
-    "venue": "때와곳",
+    "venue": "",
     "date": "2019",
     "note": "",
-    "credits": "민지산",
+    "credits": "",
     "youtube": "",
-    "thumb": ""
+    "thumb": "assets/works/gyejeolpung/무뢰배 시안2.png",
+    "by": "때와곳",
+    "media": [
+      {
+        "type": "image",
+        "src": "assets/works/gyejeolpung/무뢰배 시안2.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/gyejeolpung/바늘구멍하늘 시안1.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/gyejeolpung/비단뱀 시안3.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/gyejeolpung/탑 시안1.png"
+      }
+    ]
   },
   {
     "id": "byeolmuri",
@@ -447,14 +542,21 @@ const defaultWorks = [
     "thumb": "assets/works/byeolmuri-thumb.png",
     "src": "assets/works/byeolmuri-thumb.png",
     "link": "Resource/pdf/byeolmuri.pdf",
-    "description": "양자역학적 다중우주를 배경으로 천체물리학자 마리안과 양봉업자 롤란드의 충돌을 탐구하는 연극. 플로어 프로젝션 맵핑으로 두 사람의 무수한 평행우주를 표현한다.",
+    "description": "별무리는 서로 다른 세계를 살아가는 두 사람이 만나며 만들어내는 무수한 가능성과 관계의 궤적을 그린 작품이다.\n\n천체물리학자 마리안과 양봉업자 롤란드는 세상을 바라보는 방식이 완전히 다르다. 한 사람은 의미 없음 속에서 의미를 찾고, 다른 한 사람은 의미가 있기 때문에 그것이 무의미하다고 말한다. 작품은 이들이 만나고, 대화하고, 이해하고, 충돌하는 순간들을 따라가며 매 순간 갈라지는 수많은 가능성의 우주를 관측한다.\n\n연극은 플로어에 도면을 맵핑하여 두 사람의 무수한 평행우주를 표현한다. 관객은 공존하는 여러 갈래의 시간과 관계를 따라가며, 마리안과 롤란드의 우주를 체험한다.",
     "role": "공동연출 / 음향 / 음악 / 영상",
     "form": "연극",
-    "venue": "서강대학교 메리홀 · 구상성단작전",
-    "date": "2019 — 2020",
+    "venue": "서강대학교 메리홀 · 동양아트홀",
+    "date": "2019.11.14 - 16 / 2020.11.11",
     "note": "2020 현대차그룹 대학 연극 뮤지컬 페스티벌 우수상 · 새로운 발견상",
     "credits": "Director 이화승·민지산 · Translator 이가윤·이화승 · Actor 이가윤·박찬호 · Assistant Director 최우림 · Lighting Designer 이화승 · Sound Designer 민지산 · Stage Designer 이화승·민지산 · Video Designer 유가람·민지산 · Marketing 김민주 · Stage Manager 이찬희 · Costume Designer 이찬희 · Choreography 장윤정 · Graphic Designer 박건우",
-    "youtube": "https://youtu.be/hCtKTlNozQM"
+    "youtube": "https://youtu.be/hCtKTlNozQM",
+    "by": "구상성단작전",
+    "media": [
+      {
+        "type": "image",
+        "src": "assets/works/byeolmuri-thumb.png"
+      }
+    ]
   },
   {
     "id": "amugotdo",
@@ -482,9 +584,9 @@ const defaultWorks = [
     "type": "image",
     "status": "Complete",
     "thumb": "",
-    "src": "",
+    "src": "assets/works/train91/train91_thumb.png",
     "link": "Resource/pdf/train91.pdf",
-    "description": "레몽 크노의 수식화 기법을 활용해 창작한 희곡. 죽음·트라우마·신앙을 주제로, 이야기가 진행될수록 텍스트가 점점 해체되고 수식화된다.",
+    "description": "레몽 크노의 XY=Z 기법 및 행렬 개념을 활용한 문장의 수식화 매커니즘을 직접 고안하고, 그것을 효과적인 문학적 기법으로 활용할 수 있는 방안을 탐구하는 작업들을\n진행하였다. 그리고 그 기법을 활용한 희곡을 창작하고 실물 제작을 진행하였다.\n\n91열차는 죽음, 트라우마, 신앙, 그리고 가족의 복잡한 감정을 탐구하는 희곡이다. 주인공인 ‘여자’를 중심으로, 병실과 일상 속에서 교차되는 이야기들이 전개되며, 등장인물들은 각자의 상처와 고통을 마주하며 구원을 찾아 나선다. 이야기가 진행되감에 따라, 텍스트는 점점 해체되고 수식화된다. 당신은 이제 희곡의 빈 공간에 가닿는다.\n각 장의 마지막에는 작 중 인물의 관계를 추상화한 사진 작업이 존재하며, 가장 뒷표지에는 그들의 관계를 다룬 표가 존재한다.\n\n부록으로는, 작 중 사용된 수식화를 해독하고 읽는 방법이 쓰여있다. 이를 통해 독자는 희곡을 마치 퍼즐을 풀듯이 다시 더듬어가는 과정을 체험한다.",
     "role": "디자인 / 작가 / 영상",
     "form": "희곡",
     "venue": "",
@@ -501,23 +603,33 @@ const defaultWorks = [
         "type": "pdf",
         "src": "Resource/pdf/train91.pdf"
       }
-    ]
+    ],
+    "by": ""
   },
   {
     "id": "hapgyeok-film",
     "title": "합격을기원합니다 단편영화",
     "genre": "Originals",
     "year": "2019",
-    "type": "video",
+    "type": "image",
     "status": "Complete",
-    "src": "",
-    "description": "공동연출. 사단법인 학교밖청소년학교.",
-    "role": "공동연출",
+    "src": "assets/works/hapgyeok-film/합격을기원합니다 엽서 앞면 png.png",
+    "description": "신촌 거리는 누구를 위한 공간인가, 이 거리의 주도권은 누구에게 있는가, 그것을 갖지 못한 사람, 갖고자 하는 사람, 가지고 있는 사람이 이 거리에서 어떻게 존재하는가를 탐구합니다.\n\n\"우리가 가고 있는, 갈 수 있는 길은 어디인가.\"",
+    "role": "연출",
     "form": "단편영화",
-    "venue": "사단법인 학교밖청소년학교",
+    "venue": "",
     "date": "2019",
     "note": "",
-    "credits": "공동연출 민지산"
+    "credits": "연출 박세원·민지산 · 출연 권한솔·김윤하 · 각본 김가현 · 각색 박세원·민지산 · 기획 남현욱 · 제작 박채인·강예솔 · 촬영 박찬우 · 음향 이시훈 · 미술 김동민 · 스크립터 김수현",
+    "thumb": "assets/works/hapgyeok-film/합격을기원합니다 엽서 앞면 png.png",
+    "by": "사단법인 학교밖청소년학교",
+    "youtube": "",
+    "media": [
+      {
+        "type": "image",
+        "src": "assets/works/hapgyeok-film/합격을기원합니다 엽서 앞면 png.png"
+      }
+    ]
   },
   {
     "id": "hapgyeok-ansan",
@@ -526,16 +638,23 @@ const defaultWorks = [
     "year": "2019",
     "type": "image",
     "status": "Complete",
-    "thumb": "assets/works/hapgyeok-thumb.png",
-    "src": "",
-    "description": "아트디렉터 / 음향 / 음악. 2019 안산국제거리극축제, 사단법인 학교밖청소년학교.",
+    "thumb": "assets/works/hapgyeok-ansan/안산(3).jpg",
+    "src": "assets/works/hapgyeok-ansan/안산(3).jpg",
+    "description": "20-30명의 관객이 동시 송출되는 헤드폰을 착용한 채 하나의 행렬을 이어나간다. 나를 잡아끄는 이 땅은 나를 쉽게 '하교'하도록 놔두지 않는다. 나의 하굣길을 가로막은 알 수 없는 축제, 알 수 없는 친구로부터 벗어나기 위해 나는 관객과 함께 걷기 시작한다.",
     "role": "아트디렉터 / 음향 / 음악",
     "form": "거리극",
-    "venue": "2019 안산국제거리극축제 · 사단법인 학교밖청소년학교",
-    "date": "2019",
+    "venue": "2019 안산국제거리극축제",
+    "date": "2019.05.04 - 06",
     "note": "",
     "credits": "Actor 김미래·조혜진 · Writer 김가현 · Art Director 민지산·박세원 · Art Business Manager 남현욱 · Sound Designer 민지산 · Photographer 이시훈 · Design 김태현·민지산·최재원",
-    "youtube": "https://youtu.be/IE1I2m8uFX4"
+    "youtube": "",
+    "by": "사단법인 학교밖청소년학교",
+    "media": [
+      {
+        "type": "image",
+        "src": "assets/works/hapgyeok-ansan/안산(3).jpg"
+      }
+    ]
   },
   {
     "id": "useless-table",
@@ -545,15 +664,16 @@ const defaultWorks = [
     "type": "image",
     "status": "Complete",
     "src": "",
-    "description": "설치. 서울세계불꽃축제 2018, 민지산박세원.",
+    "description": "우리에겐 상관없는 표.",
     "role": "시각디자인",
     "form": "설치",
-    "venue": "서울세계불꽃축제 2018 · 민지산박세원",
+    "venue": "서울세계불꽃축제 2018",
     "date": "2018",
     "note": "",
     "credits": "민지산박세원",
     "youtube": "",
-    "thumb": ""
+    "thumb": "",
+    "by": "민지산박세원"
   },
   {
     "id": "sicha",
@@ -564,14 +684,15 @@ const defaultWorks = [
     "status": "Complete",
     "thumb": "assets/works/sicha-thumb.jpg",
     "src": "",
-    "description": "롯데타워 전망대에서 내려다본 서울을 하나의 행성으로 표현한 미디어아트. 특정 지역을 행성화한 영상과 일상의 단편을 두 스크린에 병치한다.",
+    "description": "높은 곳에 올라가서 서울을 내려다보면, 그 수많은 빛 하나하나에 삶이 있다. 저 멀리 정체된 자동차의 헤드라이트 무리, 높디높은 아파트들과 바닥에 붙어있는 작은 집들, 바쁘게 걷는 먼지 같은 점들과 보이지 않는 곳에 수많은 사람들이 멍하게 서 있을 땅속 지하철까지. 지평선을 따라 다른 땅이 채워져 있는 풍경은 마치 하나의 행성을 떠올리게 한다. <시차(視差)>는 \"서울\"이라는 행성에 살아가는 집단의 이야기이다.\n\n<시차(視差)>는 롯데타워라는 공간성에서 시작하여, 전망대에서 본 서울의 풍경을 기반으로 하여 하나의 행성으로 표현한다. 우측의 스크린에는 서울의 특정 지역을 행성화한 영상이 재생되고, 좌측 스크린에서는 그 행성 속 다양한 일상의 모습을 포착한 영상이 재생된다.",
     "role": "기획 / 영상",
     "form": "미디어아트",
-    "venue": "서울스카이, 미디어아트를 새기다 展 · 민지산박세원",
-    "date": "2018",
+    "venue": "서울스카이, 미디어아트를 새기다 展 / 제 1회 서울스카이 미디어아트 어워드 기획전",
+    "date": "2018.02.08 - 25 / 2019.03.08 - 06.09",
     "note": "2019 제1회 롯데타워 미디어아트 어워드 우수상",
     "credits": "민지산박세원",
-    "youtube": "https://youtu.be/efCtsqHUHqM"
+    "youtube": "https://youtu.be/efCtsqHUHqM",
+    "by": "민지산박세원"
   },
   {
     "id": "10-4-3-2-1",
@@ -580,31 +701,44 @@ const defaultWorks = [
     "year": "2018",
     "type": "image",
     "status": "Complete",
-    "thumb": "assets/works/10-4-3-2-1-thumb.png",
-    "src": "q9v-SqU_cgY",
+    "thumb": "assets/works/10-4-3-2-1/1.png",
+    "src": "assets/works/10-4-3-2-1/1.png",
     "link": "Resource/pdf/10-4-3-2-1.pdf",
-    "description": "붕괴와 재건을 둘러싼 힘의 관계를 10·4·3·2·1명의 퍼포머 그룹으로 표현하는 퍼포먼스. 철거 현장 소음에서 영감받은 사운드트랙과 프로젝션 맵핑을 사용한다.",
+    "description": "붕괴와 재건은 건물에만 적용되지 않는다. 우리가 딛고 사는 땅부터 그 위에 쌓아올린 일상에도 붕괴와 재건은 끊임없이 일어난다. 10 : 4 3 2 1은 이러한 사건 일반에 대한 탐구를 20명의 퍼포머를 통해 진행한다.\n\n10 : 4 3 2 1은 ’일상 - 붕괴 - 그 이후‘의 페이즈로 구성되며, 힘의 작용 방향과 관계성의 변화 양상 자체를 표현함으로써 붕괴와 재건이 갖는 동사적 본질을 탐구한다.\n\n유진상가를 공연 장소로 예정하고 구성된 퍼포먼스였으나, 장소의 이슈로 인해 본 공연은 서강대에서 진행되었다. 이에 따라 유진상가에서 촬영한 영상을 인트로로 시작해, 상가를 추상화하여 표현한 프로젝션과 함께 퍼포먼스가 진행되었다. 유진상가라는 공간성에서 출발한 이 작업은 프로젝션 맵핑을 통해 장소성을 초월한 일반성을 획득한다.",
     "role": "공동연출 / 음악 / 영상",
     "form": "퍼포먼스",
-    "venue": "서강대학교 이머시브 홀 · ㅁㅂㅅㅇ",
-    "date": "2018",
+    "venue": "유진상가 / 서강대학교 이머시브 홀",
+    "date": "2018.10.02 - 06",
     "note": "2019 유진상상 프로젝트 영상설치 참가",
     "credits": "Director 민지산·박세원·신유진·이시훈 · Movement Director 민지산·박세원·신유진·이시훈 · Sound Designer 민지산 · Cinematographer 민지산·박세원 · Video Designer 민지산·박세원 · Performer 김가현·김다영·김재영·김하늘·김현지·박찬우·배하영·서상교·시현수·신범균·이수현·이은석·이하늘·이화승·장혜수·조세희·허솔·황지현",
     "media": [
       {
-        "type": "youtube",
-        "src": "q9v-SqU_cgY"
-      },
-      {
-        "type": "youtube",
-        "src": "GpNwfUwIxbM"
+        "type": "image",
+        "src": "assets/works/10-4-3-2-1/1.png"
       },
       {
         "type": "image",
-        "src": "assets/works/10-4-3-2-1/10-4-3-2-1_thumb.png"
+        "src": "assets/works/10-4-3-2-1/4.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/10-4-3-2-1/6.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/10-4-3-2-1/8.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/10-4-3-2-1/9.png"
+      },
+      {
+        "type": "image",
+        "src": "assets/works/10-4-3-2-1/20.png"
       }
     ],
-    "youtube": ""
+    "youtube": "https://youtu.be/GpNwfUwIxbM",
+    "by": "ㅁㅂㅅㅇ"
   },
   {
     "id": "piruk-elapse",
@@ -613,22 +747,23 @@ const defaultWorks = [
     "year": "2018",
     "type": "image",
     "status": "Complete",
-    "src": "",
-    "description": "",
+    "src": "assets/works/piruk-elapse/piruk-elapse_thumb.png",
+    "description": "피륙 elapse는 ‘도망’과 ‘계(界)’에 대한 질문에서 출발한 설치/퍼포먼스 작품이다.\n\n작품은 외부 세계와 단절된 작은 세탁실을 모티프로 삼아, 우리가 벗어나고자 하는 공간과 그 바깥에 존재한다고 믿는 세계를 탐구한다. 방으로부터, 책임으로부터, 과거로부터 탈출하고자 하지만, 우리가 도달한 곳 역시 또 다른 경계가 되어 우리를 둘러싼다.\n\n세탁실은 옷을 통해 자신과 외부를 구분하고, 세탁을 통해 같은 행위를 반복하는 공간이다. 작품은 실로 연결된 옷더미와 구조물을 통해 탈출의 흔적이 축적되는 과정을 시각화하며, 우리가 속한 세계의 범위는 어디까지인지, 그리고 진정한 외부란 존재하는지 질문한다.\n\n피륙 elapse는 끊임없이 경계를 넘어서고자 하는 인간의 욕망과, 그 끝에서 다시 새로운 경계를 마주하게 되는 역설적인 경험을 다룬다.",
     "role": "기획 / 영상",
-    "form": "설치",
-    "venue": "서대문여관아트페어 · 민지산박세원",
-    "date": "2018",
+    "form": "퍼포먼스 / 설치",
+    "venue": "이멀시브 홀 / 서대문여관아트페어",
+    "date": "2018.05.19 - 06.10",
     "note": "",
     "credits": "민지산박세원",
     "youtube": "https://youtu.be/JGGj3jpsTvM",
-    "thumb": "",
+    "thumb": "assets/works/piruk-elapse/piruk-elapse_thumb.png",
     "media": [
       {
-        "type": "youtube",
-        "src": "JGGj3jpsTvM"
+        "type": "image",
+        "src": "assets/works/piruk-elapse/piruk-elapse_thumb.png"
       }
-    ]
+    ],
+    "by": "민지산박세원"
   },
   {
     "id": "hapgyeok",
@@ -639,14 +774,15 @@ const defaultWorks = [
     "status": "Complete",
     "thumb": "assets/works/hapgyeok-thumb.png",
     "src": "",
-    "description": "관객이 블루투스 헤드폰을 착용하고 신촌 연세로를 함께 걷는 거리극. 면접을 앞둔 가현을 따라가며 이 거리에서의 소속과 주도권을 탐구한다.",
+    "description": "관객은 신촌역에서부터 출발해 극을 따라 연세로를 함께 걷는다. 모두가 블루투스 헤드폰을 착용하며, 배우를 따라서 헤드폰을 쓰거나 벗는다. 면접을 준비하는 가현이 속으로 되뇌이는 이야기들이 헤드폰을 통해 재생된다. 가현이 수험표를 잃어버려 관객을 붙잡고 본 사람을 찾는 사건이나, 길거리 화장품 가게에서 알바를 하던 세원과 우연히 마주치는 등, <합격을기원합니다>는 신촌 연세로라는 공간성을 적극적으로 이용하여 관객과 연극의 층위를 허물고 현실로 무대를 가져온다.",
     "role": "아트디렉터 / 음향 / 음악",
     "form": "거리극",
-    "venue": "제1회 신촌거리예술축제 · 사단법인 학교밖청소년학교",
-    "date": "2018",
+    "venue": "제1회 신촌거리예술축제",
+    "date": "2018.11.18",
     "note": "",
     "credits": "Actor 김가현·박세원 · Writer 김가현 · Art Director 민지산·박세원 · Art Business Manager 남현욱 · Sound Designer 민지산 · Photographer 이시훈 · Design 김태현·민지산·최재원",
-    "youtube": "https://youtu.be/IE1I2m8uFX4"
+    "youtube": "https://youtu.be/IE1I2m8uFX4",
+    "by": "사단법인 학교밖청소년학교"
   },
   {
     "id": "0-94376",
@@ -658,11 +794,11 @@ const defaultWorks = [
     "thumb": "assets/works/0-94376-thumb.png",
     "src": "assets/works/0-94376-thumb.png",
     "link": "Resource/pdf/0-94376.pdf",
-    "description": "언어의 기표와 기의, 소통의 맹신을 탐구하는 이머시브 미디어아트. 두 명의 관객만 입장해 서로 다른 시점으로 같은 작품을 경험하며 자리를 바꿔간다.",
+    "description": "기획\n언어는 기표와 기의의 결합으로 탄생하는 기호이다. 하지만 우리는 언어 그 자체가 의미라고 생각한다. 그렇기에 단순한 언어의 교환 자체를 의미의 공유, 즉 소통이라고 여긴다. 이는 우리가 ‘우리가 갖는 언어에 대한 맹신’에서 빠져나오지 못하고 있는 것은 아닌지 의문을 불러 일으킨다.\n\n부조리극은 여타의 실존주의 연극과 다르게 부조리한 현실을 있는 그대로의 부조리한 방식으로 보여 준다. <0 94376 91475 7>은 이러한 방향성을 그대로 유지한다. 다만, 전달하는 매체의 변주를 통해 다른 효과적인 방식을 탐구해보고자 한다. \n\n이 시도는 크게 두 갈 래로 나눌 수 있다. 하나는 라이브 공연에서의 한계를 뛰어넘을 수 있는 영상적 시도이며, 또 하나는 프로젝션을 활용해 관객이 작품의 일부(행위자)가 되는 공간적 시도이다.\n\n관람 방식\n무대에는 마주 본 두 개의 의자만 놓여 있고, 오직 관객 두 명만이 작품을 관람할 수 있다. 언어와 기호로 점철된 넓은 공간에서 소통할 수 있는 대상은 오직 서로뿐이다.\n\n정면 스크린을 향한 자리에 놓인 관객은, 눈앞의 관객보다는 영상에 시선을 집중한다.\n\n하지만 정면 스크린을 등지고 앉아있는 관객이 볼 수 있는 것은 눈앞의 또 다른 관객뿐이다.\n\n두 관객은 명령에 맞춰 자리를 맞바꾸어가며 같은 시간, 같은 공간에서 같은 작품을 감상하지만, 이들이 관람한 것은 같을 수 없다. 일상의 대화에서 우린 서로 같은 언어로 의미를 교환하고 있다고 여기지만 그럼에도 각자가 받아들이는 의미가 상이한 것과 같다.",
     "role": "기획 / 영상",
     "form": "인터랙티브 비디오아트",
-    "venue": "2017 이멀시브 콘테스트 · 민지산박세원",
-    "date": "2017",
+    "venue": "서강대학교 Immersive Hall",
+    "date": "2017.11.14",
     "note": "2017 이멀시브 콘테스트 우수상",
     "credits": "민지산박세원",
     "youtube": "https://youtu.be/_f1EtjH6tCU",
@@ -671,7 +807,8 @@ const defaultWorks = [
         "type": "image",
         "src": "assets/works/0-94376-thumb.png"
       }
-    ]
+    ],
+    "by": "민지산박세원"
   },
   {
     "id": "s-o-s-mqnb6ad1",
@@ -682,14 +819,15 @@ const defaultWorks = [
     "status": "Final",
     "role": "영상",
     "form": "영상",
-    "venue": "-",
+    "venue": "",
     "date": "2017",
     "note": "",
     "credits": "Video 민지산",
     "youtube": "https://youtu.be/OZ2DDS1alGM",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAKvA8ADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD4yooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoord8I+EvE3i6+ex8MaBqWs3EYBkWzt2k8sE4BcgYUZ4ySBQBhUVt+K/Dev+E9XbR/Euj3ulXyqH8i6iKMVOQGGeqkgjIyDggHisSgAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA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7AhSMgkHI4rmKKACiiigAooooAKKKKACiiigAooooA6jwF478X+BZ7648Ja9d6TJf25t7kwkfOn0IIDDJw4wy5JBGTnl6634ffDvxp4/bUU8H+H7nVjp0Imu/KZFEanOBliAWODhBljtOAcHHO39nd6fez2F9azWl3bSNFPBPGUkidTgqykAqQQQQRkEYNAFSiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK91+C/wA/4TvwOnizXPF9p4YttQv/7N0OOe3Mhv7kggDO4AAsCoABJKvwMDIB4VRWl4i0i90DX9R0PUY1jvdOupbS5RWDBZI3KMARwQCCM96zaACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiivaP2X/hzoHjC/8TeKfGUclx4U8I6a1/qNpA5Wa6JSRlRSCpAxFIxIYHKqOAxIAPF6K9z+MvhrwLdfBbwx8S/BPhFvDMOp3sllPaNqc1wUlQy7hmbmVSEQh02hSHVgSRs8MoAKKKKACiiigD9AvgVpdh4K+E/gD/hCrOe5TX9mr+JvENvcQQ28EUOGmjuZZI5AAm9oxEmxiY5DvQ72PxF8Tr3StS+JXifUdE8v+yrrWLuaxEcexPIaZzHhcDaNpGBgYHHGKqaX4n8Q6XoeoaHput39ppmpAC9tIp2WKcDpvUHB9Mntx0rFoAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigDofh/wCJbvwf430XxTZbmn0u8iuQgcoJQrDdGSOcMuVPsSO9fRP7T3hfRfB/wQ+z6Vqenz6fr3jmTXNAS2dVD2E1kCxVAeVjcqgPOAUPG4AfKwBJwASaSgAooooAKKKKACiiigAooooAK99+Fv7RM3hbQXXWPDVjqviPStGfTPDeuBALm2RjxHMTkSRIMFQACArLyJCR4FRQAUUUUAFFFFABRRRQAUUV6n8AfAXh/wAVTeJPEXjS4vrfwn4X0031+9nJGks0pOIbdS5ADSYcD1KhQQWBAB5ZRXovx48F6P4M8T6U3hy4vZdC1/RLTW9MW+Km5ignU4SUqAu8Mj8DIAwMk5NedUAFFFFABRRRQAUUUUAFFFFAH05+y1rGryfAb4qeHPAqC18biGK+tZ7aT/TLm2GFkSJQNxMah9pXJD3CgYJBOR+3rbWI+NNhq9lbyQNrXh+0v51mjKSFy0sY3KeQwSJAQeQRivFPB/iPWPCXiaw8SaDevZalYSiWCVD0IGCpHdSCVIPBBIOQSK3Pi98SPEfxR8S2/iDxMbP7ZBZrZoLWIxr5au7jgk5OZGOc9xQBxNFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAV96fBXSLjxT8Mfgg3huxli8KaDf3V/rsl5hJI7yFJdsiEkb4mmkmGU3YDKDgq4HwXW1pHifxJpGl3ml6R4h1bT9PvkKXlrbXkkcNypUqRIikBwVJBBB4JFAB421Ya/4y1vXQu0ajqE92FyeBJIz4yee/esWiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAr0T4IfE+9+GeuX8/9lwa3o2rWb2Wq6VcyMkV3EfUgEBgCQCVYYdxj5ia87ooA9J+NPxLtvHsHh3SdD8MweFvDnh6ya3sNKhnE4R3bMkpkKKzFwEzuySVLEksxPm1FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAfQf7LWvSeBvhx8WPiJp0Il1jSNPsLOz3EbE+1TshcjGTtZI2xwDtIPXIZ8U7iL4tfA8fGCfSNM0/wAU6Pq40rXHscRrfQOiGK5dCchwzLHkZLDcc4UKnNfs7eIdHSfxD8OPE93Fp+geNrRLKW/k6WN1GS9rO3IygckEEqDuBJABz6FY/DDxr8Ofh18W/BniawgbSr/QLTVYNbtmd7KWS2uUZIUkKj52LuNjAHKAgFSCQD5iooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACvZ/2cNQ0jVdK8a/CnWby305fGlhCmn3txN5Ucd/bOZbZJGwcRu7YJAJOAAMsMeMVbsLy506+t7+wuZrS7t5VlgnhcpJE6kFWVhyGBAII5BGR0oA9x/aM8Pax4a+DHwi0rxRYm08Q2cWsWt2sxVphEl0nkoXBOUCsSmCRgkjg14HW14r8S+IfFurtq3ibWb/Vr5l2Ca7nMhRMk7FzwqgsSFGAMnAGaxaACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAorT8OaTe6/r+m6FpsaSXuo3UVpbIzBQ0sjhEGTwASQMngdTX1J8X/2afA3hj4WeILnwt4h1LWfF/hi2gu9UgMsRUROQXZogMxAIskqgsThSCWBBoA+SKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigArvF+LXxE/4QG58CS+Kry58O3EaxNaXAWbZGu3aiO4LogCKAqsABwBya4OigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKANDRNTvtE1mx1jS5/s9/YXMd1bTBQTHKjBkbBBBwQDggg45zXvfib9p2417wN4q0t/AulaZ4k8T2qWupa1p85QTxqNgDRMrE4iLoCZDjdkYAxXzpRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABWjZ6Pqt7pl9qlnpl7c2GnhDe3UUDNFbbyVTzHAITcQQMkZIIGTWdX2F8K719K/Zx8MeCdD0i2mn+IWieKXu32O80t3bxOsITnAyqhcAHJUEYJJIB8e0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABXTfDGy0rUviT4X07XhGdJutYtIb4STGNDA0yLJlgQVG0nJBBA5yMZrmaKAPqv9pzwR4D1Pwt4q1zwVo2naBqPgPV4NMv7O2iMBmspERElkTBDyGcvtkBBaMEsSQAPlSvXj8cdWvvht4i8IeItB0/VLrW7O1tpdbUmG9k+zOGga4YAicoAFBIDEAZZsV5DQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFfSfwq1m+s/2Xv+Ets74rqXw98ZQajaqZTuNrOI4pLYYIKRyPI5YdGAcc84+bK+rfg/ptpp37P3gzw7dWllfS/Enx1bC4tzGxlfTLadBLkjHCPBkk8BZiRySQAeC/GrQbDwv8W/FXh/S08qwsdUnitY/mPlxByUTLEk4BAySScZJOc1xldP8AFHXf+Eo+JHiTxEEZE1HVLi5jQsGKI0hKrkcHAIGRwcVzFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUVYsra4vbyG0s4Jbi4nkWOKKJCzuxIAVQOSSSAAOSaAK9FT3ME1tcy21xFJFPE5SSORSrIwOCCDyCCCCD0qCgAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACinYIAJBAPTim0AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABX0D4D+Nvhrw98LdCtZdJ1ZvHXhO21G28OXSGJrKJrxwWuJAfmMiKWUIVdCFBPLZT5+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiug8La7Y6TY6zZ33h6w1YajZtBFLPxLZydVljbBwQeoxyOMg4IAF8F+FNS8V381tY3Om2cNvH511d6heR28FvHkAuzOQTyRwoLHsDWnLpXiP4f+IdH8Q6LqNneMJGuNM1PTWM8LvCRvwGUEFCRkMoIBBxggm38MZdDn8OeKtDmsdKfxHqdtDHo9zqIXy48OTMiMxCxzONuxzgfKVyCwz7p4t8L6jo3hGzutP0ZtAvbqCym8P6bZiL7VPromKNJDFHJIUjNsAJdxAYhCQCMUAfK2pXl1qWoXOo388lzd3UrzTzSHLSOxJZie5JJJPvVWvZfi5peieFf2kdStbrSoIfD13cqlwoizCqTRKLh4eMDY7yFNvClAB0xXl3izRrrw74m1LQb3BuNPupLaQjoxRiMj2OMj2IoAy6KKKACiiigAooooAKKKKACiiigAooooAKKKKACiux+HPw88RePv7S/4R9Ldjp6I0iyud7lyQqoqgkk4JJxgAckZGa/w/8ADNprvji30LW9Wg0WyjaV7+6lcZiiiUvIEBOGchCFHckCgDb1XxhoMnwG0fwNb2dxNq9vrM2pXF3PCoWBHTYIoWDEkEKrNkDnAHTNed16rZa74KXU1sfAfwkl1e/Zn+xya3ey30kqAEkm3iCISAGOPmA98ZrI8feH4JvCml+PdL0w6baX13Lp2pWaqRHaX8QVmCA8iN0cOFydpDrnAFAHB4OM4OAeabXcN8RL4fBofDSPS9PitG1T+0Jb2OMCebCkBHOOcEkhs5wAOgrh6ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKlgMayoZkaSMMC6hsEjuAe1AHR+EfFUWh27W994Y0DX7YSGWOPUYHJjfbjIeJ0cg4GUJKnGcZ5rZu/i74yC3EWiSaX4YguFKNHoOnQ2TBD/AJUXzceoLnPfNJ8cfGuh+N/FVpd+GfDkPh7RbHT4rK0skRAwC5LFio+Y7mIBJJwBnnNZ/iDwtolh4D0fxJp/jCw1G8v38u40pY9lxasASxI3E7QQBkhc7gRkZwAdF4BvdT8WWumW3jDWY4PA3hOf7bdMY4lkAcjMUeAHlml2BQCTjqSACRw/jjXp/FPjHWPEl0oSbU72W7ZAchN7lto9hnH4Vi0UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAFqyvbyxkaSyup7Z2UozQyFCVPUEgjg+lb/wy8NxeK/GFvpV1dfZbXZLc3U+0kJFEhkkJI6DapGegzk8Vy1bPhXxDqnhnVf7S0qWNJGikgmjkjEkc8Mi7ZInU5DIykgg9j2PNAHuXxO8MafqmueOL3xBqtr4ftfDUc9h4XsN7wiOG3G+2ERKFJxMC2Qr797hzwSa5v9pnTPEb+I7zxGsGoJ4X1B7G4UuSIlvZ7CGVw6ZwJiCSTjJ55PNQaHrnge41bTNWbxA2lafaSpMfDWsWlzqNlDMBgvGEcB07hXII+6SwGTD8XvilB4m8Lp4X06fVdRWTVm1bVNX1LYk2oXPlCJCsKZWKNEGFTJwMdMYoA8looooAKKKKACiiigAooooAKKeiNIwVFLMTgADJJrSstEv5dU02xuLS4tjqEqRwtLEV3hnCZXOM4J7UAZVFdT8VPCh8D+PtV8LfbTeixdAs5hMTOrIrjKEkqQGAIycEGuWoAKKKKACiiigAoor1/wACeCvAsvw9m8X6/eyvawyC3nmuZ5LWEXLKXW2gWOKSSaQKuWc7EUMOD1oA8gor02TwtovijT1h8OeHtY8Pa+6mawsL24M8esRcBlgcxofNXqE5DjIBDABvNpY3ilaOVGR0JVlYYII6g56GgCOiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAClNJRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFKOtJUsHleenn7/K3DfsxuxnnGe+PWgD1HQnPhyXTvDPgGQax4v1RUa91TTgGe0R0JNtayHhSEJMkwxgggEKrFur8Y6LoGv+KdH0edb6e21W5GnaV4pTxE+qyG8BQFbhSAuAzpkIqHBDIZBjOFpniX4aWXi/xCnhGG/wBB0jUfDR020l1YGZjdF4mcy+WWKJIqOhKZwHPABIHQfEfxWZfC1zr8eoeEtD12PWoNVtW0XVHv5725QFFMabyLSGOMk4cclEUAAcAHi11peuX+v6pa3AlvdTtTNJeF5d8jGMnzGyTlyACTjJwCegrEr1v4e2L+DdIk+L3iuzMszSSR+G7S5BzqF+QCbhlOC0EW7cT0Zyq5POPKJGZ3ZjjJOTgADn26CgCOiiigAooooAsWUD3d5DaxlPMmkWNS7BQCTgZJ4Ayepr37x94JfU/DCeCfDN6ZYPB17Do0VvFAS+s67dMzXJBJARESJgHboIwOhJHz0DzXqGjeOdX8UeOEgXQNM1B9aFol9ZXV41vDdXcKbBdeaHQwyEbiSHAO9wchsUATQTeKtU07xV4a8X6he3l9pmmpqunXFxeG4+zmBk5hkDEbHidgChIJCEZABHL/ABR17T/Euuafqtnve5bSbSPUppFw094kQWWQ+pJHLdyCTyTXpPxC8R6BpM+vXWp65Y654n1LSP7GttP8Opt0nRrYBFWMSn/WlVUABAVySS5JrwegAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigDoH8N3D+DYPE1k73cAuJLe9SOM5s2UKULkE/K4Y4JAGUYckVB4V1LTdL1GW41bQoNatntpYvImmeLY7KQsisvO5CQQDkHGCO4r6HrGq6HfC+0fUbnT7kDHm28pRiOCQSDyOBweDXVaX8UvE2mypdWVt4di1BMlb4aBZm4Vjn5g5jyGHZuo65zQBX8c+HPGGk+HvD+qeLL1wt7bEabZXd4XuobZfut5JJMUTZO3IAOCQMc1xlaGu6tqeuanPqusX9zf31w26a4uZTJI59STyfT2HFZ9ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVo6BpOo69rVno2kWcl5qF7MsNvBHjdI7HAAzwPqeB1JAqKOwu5NNl1JYSbSGVIZJMjCu4YqPXJCMfwNeqTEfB/wT5EcgHj3xNYqzvGcnSNNlAIUMOk8wwSQcohxwWoA5i7+Gevw3o02K/0C81RSyy2Ntq0EskJVgp3kNsGCeQGJGDkCuW17Sb3RNTl03UY4kuYsbxHOkq8gEYdCVPBHQmvUI/CN14ATTdRsPE+rWPjSPSxrN7YW+nuYbKAkOkc8qMSpdNhIZNg3gMQDmpp/AHhPXfi04uddh8M+GtcsV1nSSEQl1mIxaxlmWMNHIZEO5gAIWxzgUAeM0VoeILBNJ13UNKS9tr9bO6lgW6t23RThGKh0PdTjIPcEVn0AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAegaFq2hXfwV1rwjdXSafrEWrxaxayyoSl2iQvE0AYAlXG/euRg8jIOM5vjfxZD4r0jw893Zyx63pdkunT3QcGO6gi4gYjGRIqnYTkghVPBznka6jxl4ZtfD+j+GryPV4b+41nTPt80cABjtQZXRYi4YkuAmWBAKkgc9aAPZYPiLp0/inxN42stYivF1eKG6TQbp3SafUEgMSpKojInhDO5CBwrjaGAxgcH8QrWTw98IvDHhfxHEU8Si9uNRhtn4l0+wmRAsUg/hMkitIEPKjkgb643QfGHinQbCWw0TxFqmm2srFnjtbl4wSQATweCQAM+w9Kx7q4nuriS4uZpJppWLSSSMWZyTkkk8kk9zQBBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUvagBKK1/Dfh7W/EuoDT9B0m81K6OP3dtEX2j1OBhR1JJwAASTXbP4D8F6FZxnxr8Q4LbVBMUm0vQ7QalLEoA5aUSLEGB4KhyRg98gAHmVFegfEL4bz+HtCtPFehatb+JfCN83lw6rbRlPJl5/czxkkxSADODkEHgmvP6ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK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JRRQAUUUUAFFFFABRRRQAUUUUAFFFFAHS/DnxbeeCvFEWtWttb3kZiktruzuAfKu7eVCksT45wykjI5BwR0rY+OXg+w8GeO3sdHmll0e+s7fUtNMxBkW3njDqr4/iUkrnvgHjOK4Mda9j8b2Fx8Q/hZ4P8TeHreTUdS8Pab/AGLrtpbpvngSJ2NvOUGWMbI+C+MArgkcUAZ/gp5Ln9nH4hWVu8qta6ppV5MqrkPETNHgnsA7IfwFeWHrXoXwO8R6doPiLVtK1+5NnpPiLR7nRrucoWW3MoHlysME4SRVJIBIGSAeh53xx4S1zwbq403XbQRs6CS3njcSQXUR+7LFIuVdCOQQT6HByKAOeooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKu6PqmpaPfx3+k6hdWF5H9ye2laORfowIIqlRQB6XH8XdS1ILH478P6F42VM7ZtTgZLsZ7faISkjDjoxbHQYAGIfil8Sbfxh4b8P8AhrS/Cen+GtG0Mzvb21vPJMS8zBnJeTLYyOmTyTz0A86ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoqxG1uLaRXhkaYkGNxIAqgZyCMHOeO4xjvmq9ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//Z",
+    "thumb": "assets/works/s-o-s-mqnb6ad1/KakaoTalk_20260621_134606889.jpg",
     "src": "",
-    "description": ""
+    "description": "짙은의 <S. O. S.> 팬메이드 뮤직비디오",
+    "by": ""
   },
   {
     "id": "how-big-how-blue-how-beautiful-mqnbx9e1",
@@ -793,6 +931,7 @@ const fields = {
   role: document.querySelector('#work-role'),
   form: document.querySelector('#work-form-field'),
   venue: document.querySelector('#work-venue'),
+  by: document.querySelector('#work-by'),
   date: document.querySelector('#work-date'),
   note: document.querySelector('#work-note'),
   credits: document.querySelector('#work-credits'),
@@ -828,9 +967,8 @@ function saveWorks() {
     }));
     try {
       localStorage.setItem(storageKey, JSON.stringify(stripped));
-      alert('이미지 파일이 너무 커서 미디어 데이터만 제외하고 저장했어요. dev-server.py가 실행 중인지 확인하고, 파일을 다시 Save해주세요.');
     } catch {
-      alert('localStorage 저장 실패. 작업 내용은 Save to script.js로 바로 저장하세요.');
+      // 용량 초과 시 Save to script.js 버튼으로 직접 저장
     }
   }
 }
@@ -926,9 +1064,10 @@ function openWork(id) {
   const metaRows = [
     ['Role', work.role],
     ['Genre', work.form],
-    ['Venue', work.venue],
-    ['Date', work.date || work.year],
   ];
+  if (work.venue) metaRows.push([work.genre === 'Design' ? 'Artist' : 'Venue', work.venue]);
+  if (work.by) metaRows.push(['By', work.by]);
+  metaRows.push(['Date', work.date || work.year]);
   if (work.note) metaRows.push(['Note', work.note]);
   detailMeta.innerHTML = metaRows
     .map(([dt, dd]) => {
@@ -977,7 +1116,7 @@ function mimeToMediaType(mime) {
 function buildMediaItems(work) {
   const items = [];
   const ytId = extractYouTubeId(work.youtube || '');
-  if (ytId) items.push({ type: 'youtube', src: ytId });
+  if (ytId) items.push({ type: 'youtube', src: ytId, localThumb: getThumb(work) || work.src || '' });
   if (Array.isArray(work.media) && work.media.length) {
     items.push(...work.media.filter((m) => m.src));
   } else {
@@ -990,9 +1129,11 @@ function buildMediaItems(work) {
 function renderMediaItem(item, title) {
   if (item.type === 'youtube') {
     const thumb = `https://img.youtube.com/vi/${escapeHtml(item.src)}/maxresdefault.jpg`;
-    const fallback = `https://img.youtube.com/vi/${escapeHtml(item.src)}/hqdefault.jpg`;
+    const hqFallback = `https://img.youtube.com/vi/${escapeHtml(item.src)}/hqdefault.jpg`;
+    const localFallback = item.localThumb ? escapeHtml(item.localThumb) : '';
+    const finalFallback = localFallback || hqFallback;
     const href = `https://youtu.be/${escapeHtml(item.src)}`;
-    return `<a class="yt-thumb" href="${href}" target="_blank" rel="noreferrer" aria-label="Watch on YouTube"><img src="${thumb}" onerror="this.onerror=null;this.src='${fallback}'" alt="${escapeHtml(title)}" /><span class="yt-play" aria-hidden="true">&#9654;</span></a>`;
+    return `<a class="yt-thumb" href="${href}" target="_blank" rel="noreferrer" aria-label="Watch on YouTube"><img src="${thumb}" onerror="this.onerror=null;this.src='${finalFallback}'" alt="${escapeHtml(title)}" /><span class="yt-play" aria-hidden="true">&#9654;</span></a>`;
   }
   if (item.type === 'pdf') {
     return `<iframe src="${escapeHtml(item.src)}" title="${escapeHtml(title)} PDF preview"></iframe>`;
@@ -1010,7 +1151,7 @@ function renderMediaItem(item, title) {
 function constrainStageImage() {
   const stage = detailMedia.querySelector('.carousel-stage');
   if (!stage) return;
-  const img = stage.querySelector('img');
+  const img = stage.querySelector(':scope > img');
   if (img && stage.clientHeight > 0) {
     img.style.maxHeight = stage.clientHeight + 'px';
     img.style.maxWidth = stage.clientWidth + 'px';
@@ -1064,7 +1205,15 @@ function fillForm(work) {
   fields.role.value = item.role || '';
   fields.form.value = item.form || '';
   fields.venue.value = item.venue || '';
+  fields.by.value = item.by || '';
   fields.date.value = item.date || '';
+  document.querySelectorAll('label[data-toggleable]').forEach((label) => {
+    const input = label.querySelector('input');
+    const btn = label.querySelector('.field-toggle');
+    const off = !input?.value;
+    label.classList.toggle('field-off', off);
+    if (btn) btn.textContent = off ? '+' : '−';
+  });
   fields.note.value = item.note || '';
   fields.credits.value = item.credits || '';
   fields.youtube.value = item.youtube || '';
@@ -1129,6 +1278,7 @@ async function getFormWork() {
     role: fields.role.value.trim(),
     form: fields.form.value.trim(),
     venue: fields.venue.value.trim(),
+    by: fields.by.value.trim(),
     date: fields.date.value.trim(),
     note: fields.note.value.trim(),
     credits: fields.credits.value.trim(),
@@ -1148,6 +1298,9 @@ async function saveForm(event) {
     works[index] = nextWork;
   } else {
     works.push(nextWork);
+  }
+  if (typeof thumbMap !== 'undefined' && nextWork.thumb) {
+    thumbMap[nextWork.id] = nextWork.thumb;
   }
   saveWorks();
   fillForm(nextWork);
@@ -1258,6 +1411,16 @@ if (isEditorPage) {
   });
 
   form.addEventListener('submit', saveForm);
+
+  document.querySelectorAll('label[data-toggleable] .field-toggle').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const label = btn.closest('label[data-toggleable]');
+      const input = label.querySelector('input');
+      const nowOff = label.classList.toggle('field-off');
+      btn.textContent = nowOff ? '+' : '−';
+      if (nowOff) input.value = '';
+    });
+  });
   editorToggle?.addEventListener('click', () => {
     editor.hidden = !editor.hidden;
     if (!editor.hidden) editor.scrollIntoView({ behavior: 'smooth', block: 'start' });
