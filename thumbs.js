@@ -8,7 +8,7 @@ const thumbMap = {
   'barcode-2025': 'assets/works/barcode-2025/barcode-2025_thumb.jpg',
   'bathysphere': 'assets/works/bathysphere/BTSP_Scr_1.png',
   'beomram': 'assets/works/beomram/beomram_thumb.png',
-  'byeolmuri': 'assets/works/byeolmuri/_DSC1711.jpg',
+  'byeolmuri': 'assets/works/byeolmuri/DSC1711.jpg',
   'cr3ature': 'assets/works/cr3ature/15.png',
   'demian': 'assets/works/demian/274923_95702_4611.png',
   'gabriel': 'assets/works/gabriel/gabriel_thumb.png',

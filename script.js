@@ -1078,7 +1078,7 @@ const defaultWorks = [
     "year": "2020",
     "type": "image",
     "status": "Complete",
-    "thumb": "assets/works/byeolmuri/_DSC1711.jpg",
+    "thumb": "assets/works/byeolmuri/DSC1711.jpg",
     "src": "assets/works/byeolmuri/_DSC1711.jpg",
     "link": "Resource/pdf/byeolmuri.pdf",
     "description": "별무리는 서로 다른 세계를 살아가는 두 사람이 만나며 만들어내는 무수한 가능성과 관계의 궤적을 그린 작품이다.\n\n천체물리학자 마리안과 양봉업자 롤란드는 세상을 바라보는 방식이 완전히 다르다. 한 사람은 의미 없음 속에서 의미를 찾고, 다른 한 사람은 의미가 있기 때문에 그것이 무의미하다고 말한다. 작품은 이들이 만나고, 대화하고, 이해하고, 충돌하는 순간들을 따라가며 매 순간 갈라지는 수많은 가능성의 우주를 관측한다.\n\n연극은 플로어에 도면을 맵핑하여 두 사람의 무수한 평행우주를 표현한다. 관객은 공존하는 여러 갈래의 시간과 관계를 따라가며, 마리안과 롤란드의 우주를 체험한다.",

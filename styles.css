@@ -13,7 +13,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 body {
@@ -504,6 +504,7 @@ label[data-toggleable].field-off input {
   display: grid;
   grid-template-columns: 1fr;
   border-bottom: 1px solid var(--line);
+  scroll-margin-top: 44px;
 }
 
 .about-name-row {
@@ -951,6 +952,7 @@ code {
 
 .career {
   border-bottom: 1px solid var(--line);
+  scroll-margin-top: 44px;
 }
 
 .career-block {
