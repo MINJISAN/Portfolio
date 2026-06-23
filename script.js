@@ -1,3 +1,64 @@
+const defaultCareer = [
+  {"section":"Theatre & Film","year":"2018","title":"타오르는 어둠 속에서","medium":"연극","role":"음향","venue":"서강대학교 메리홀 · 서강연극회"},
+  {"section":"Theatre & Film","year":"","title":"올모스트 메인 / 거의 엘렉트라","medium":"연극","role":"음향","venue":"서강대학교 메리홀 · 서강연극회"},
+  {"section":"Theatre & Film","year":"","title":"이것은 발레공연입니다","medium":"연극","role":"음향","venue":"2018 서울프린지페스티벌 · 사단법인 학교밖청소년학교"},
+  {"section":"Theatre & Film","year":"","title":"10 : 4 3 2 1","medium":"퍼포먼스","role":"공동연출 / 음악 / 영상","venue":"서강대학교 이머시브 홀 · ㅁㅂㅅㅇ"},
+  {"section":"Theatre & Film","year":"","title":"합격을기원합니다","medium":"거리극","role":"아트디렉터 / 음향 / 음악","venue":"제1회 신촌거리예술축제 · 사단법인 학교밖청소년학교"},
+  {"section":"Theatre & Film","year":"2019","title":"합격을기원합니다","medium":"단편영화","role":"공동연출","venue":"사단법인 학교밖청소년학교"},
+  {"section":"Theatre & Film","year":"","title":"합격을기원합니다_안산","medium":"거리극","role":"아트디렉터 / 음향 / 음악","venue":"2019 안산국제거리극축제 · 사단법인 학교밖청소년학교"},
+  {"section":"Theatre & Film","year":"","title":"별무리","medium":"연극","role":"공동연출 / 음향 / 음악 / 영상","venue":"서강대학교 메리홀 · 구상성단작전"},
+  {"section":"Theatre & Film","year":"","title":"봄","medium":"퍼포먼스","role":"음향감독","venue":"2019 ATC"},
+  {"section":"Theatre & Film","year":"2020","title":"별무리","medium":"연극","role":"공동연출 / 음향 / 음악 / 영상","venue":"현대차그룹 대학 연극 뮤지컬 페스티벌 · 구상성단작전"},
+  {"section":"Theatre & Film","year":"2021","title":"데미안 비더게부르트","medium":"연극","role":"영상","venue":"부평아트센터 달누리 극장 · 극공작소 마방진"},
+  {"section":"Theatre & Film","year":"","title":"오래된 믿음","medium":"퍼포먼스","role":"음향 / 음악","venue":"1M SPACE · 구상성단작전"},
+  {"section":"Theatre & Film","year":"2022","title":"종의 기원","medium":"뮤지컬","role":"영상","venue":"대학로 드림아트센터 · 뷰티풀웨이"},
+  {"section":"Theatre & Film","year":"","title":"마녀의 숲","medium":"연극","role":"음향 / 음악","venue":"창작예술집단 보광극장 · 팀 시도"},
+  {"section":"Theatre & Film","year":"","title":"스푸트니크","medium":"연극","role":"음향 / 음악","venue":"서강대학교 이머시브 홀 · 프로젝트 운동장"},
+  {"section":"Theatre & Film","year":"","title":"CR3ATURE","medium":"단편영화","role":"연출 / 영상 / 음향 / 배우","venue":""},
+  {"section":"Theatre & Film","year":"2023","title":"반려중입니다. 메세지를 남겨주세요.","medium":"연극","role":"기술지원 / 영상","venue":"한국예술종합학교 연극원"},
+  {"section":"Theatre & Film","year":"","title":"이, 별","medium":"연극","role":"음향 / 음악","venue":"대한민국 신진연출가전 브릿지 · 팀 나선"},
+  {"section":"Theatre & Film","year":"","title":"인-이어","medium":"연극","role":"영상 / 음악","venue":"데뷔를 대비하라 · 노세인"},
+  {"section":"Theatre & Film","year":"2024","title":"포천 군번 없는 영웅 독수리 유격대","medium":"연극","role":"영상","venue":"포천 반월아트홀 소극장 · 포천시립극단"},
+  {"section":"Theatre & Film","year":"","title":"BARCODE","medium":"영상","role":"영상 / 음악","venue":"TOB Group"},
+  {"section":"Theatre & Film","year":"2025","title":"술을 먹고 발톱을 깎았더니 손톱이 짧아졌다","medium":"연극","role":"음향 / 음악","venue":"한국예술종합학교 실험무대"},
+  {"section":"Theatre & Film","year":"","title":"BARCODE","medium":"무용","role":"음향 / 음악","venue":"2025 PAMS · TOB Group"},
+  {"section":"Theatre & Film","year":"","title":"Prompt Body","medium":"무용","role":"음악","venue":"제46회 서울무용제 · 박정무"},
+  {"section":"Design","year":"2019","title":"계절풍","medium":"시각디자인","role":"아트워크","venue":"때와곳"},
+  {"section":"Design","year":"2020","title":"몬순","medium":"시각디자인","role":"아트워크","venue":"때와곳"},
+  {"section":"Design","year":"","title":"생일여정","medium":"시각디자인","role":"아트워크","venue":"때와곳"},
+  {"section":"Design","year":"2021","title":"설뜨린 잠","medium":"시각디자인","role":"아트워크","venue":"때와곳"},
+  {"section":"Design","year":"","title":"줄다리기","medium":"시각디자인","role":"아트워크","venue":"때와곳"},
+  {"section":"Design","year":"2022","title":"2004 시모노세키","medium":"시각디자인","role":"아트워크","venue":"때와곳"},
+  {"section":"Design","year":"","title":"sunsetblue","medium":"시각디자인","role":"아트워크","venue":"김갑세"},
+  {"section":"Design","year":"2023","title":"범람","medium":"시각디자인","role":"아트워크","venue":"때와곳"},
+  {"section":"Exhibition","year":"2017","title":"0 94376 91475 7","medium":"인터랙티브 비디오아트","role":"기획 / 영상","venue":"2017 이멀시브 콘테스트 · 민지산박세원"},
+  {"section":"Exhibition","year":"2018","title":"사물이 거울에 보이는 것보다 가까이 있음","medium":"인터랙티브 미디어아트","role":"영상보조","venue":"HCI Korea 2018"},
+  {"section":"Exhibition","year":"","title":"시차(視差)","medium":"미디어아트","role":"기획 / 영상","venue":"서울스카이, 미디어아트를 새기다 展 · 민지산박세원"},
+  {"section":"Exhibition","year":"","title":"상관없는 표 / useless table","medium":"설치","role":"시각디자인","venue":"서울세계불꽃축제 2018 · 민지산박세원"},
+  {"section":"Exhibition","year":"","title":"피륙elapse","medium":"설치","role":"기획 / 영상","venue":"서대문여관아트페어 · 민지산박세원"},
+  {"section":"Exhibition","year":"2019","title":"10 : 4 3 2 1","medium":"영상설치","role":"공동연출 / 음악 / 영상","venue":"유진상상 프로젝트 · ㅁㅂㅅㅇ"},
+  {"section":"Exhibition","year":"","title":"시차(視差)","medium":"미디어아트","role":"기획 / 영상","venue":"제1회 롯데타워 미디어아트 어워드 기획전 · 민지산박세원"},
+  {"section":"Exhibition","year":"2020","title":"문화예술기획자를 위한 TRPG","medium":"기획프로젝트","role":"디자인 / 제작","venue":"아르코 차세대열전 2019! · 남현욱"},
+  {"section":"Exhibition","year":"2023","title":"HYNPYTOL","medium":"게임","role":"게임 디렉터","venue":"2023 BIC Festival · base0"},
+  {"section":"Exhibition","year":"","title":"가브리엘의 나팔","medium":"인터랙티브 미디어아트","role":"기획 / 음악 / 작가","venue":"2023 Art & Technology Conference · PCM"},
+  {"section":"Exhibition","year":"","title":"HYNPYTOL","medium":"게임","role":"게임 디렉터","venue":"2023 Burning Beaver · base0"},
+  {"section":"Exhibition","year":"2024","title":"HYNPYTOL","medium":"게임","role":"게임 디렉터","venue":"2024 PlayX4 · base0"},
+  {"section":"Exhibition","year":"","title":"HYNPYTOL","medium":"게임","role":"게임 디렉터","venue":"2024 GES · base0"},
+  {"section":"Exhibition","year":"","title":"HYNPYTOL","medium":"게임","role":"게임 디렉터","venue":"2024 G-STAR · base0"},
+  {"section":"Exhibition","year":"2025","title":"BATHYSPHERE","medium":"게임","role":"게임 디렉터","venue":"2025 PlayX4 · base0"},
+  {"section":"Exhibition","year":"","title":"BATHYSPHERE","medium":"게임","role":"게임 디렉터","venue":"2025 BIC Festival · base0"},
+  {"section":"Exhibition","year":"","title":"BATHYSPHERE","medium":"게임","role":"게임 디렉터","venue":"2025 Beaver Rocks · base0"},
+  {"section":"Exhibition","year":"2026","title":"BATHYSPHERE","medium":"게임","role":"게임 디렉터","venue":"2026 TIGS · base0"},
+  {"section":"Awards","year":"2017","title":"0 94376 91475 7","medium":"인터랙티브 비디오아트","role":"우수상","venue":"2017 이멀시브 콘테스트 · 민지산박세원"},
+  {"section":"Awards","year":"2019","title":"시차(視差)","medium":"비디오아트","role":"우수상","venue":"제1회 롯데타워 미디어아트 어워드 · 민지산박세원"},
+  {"section":"Awards","year":"2020","title":"별무리","medium":"연극","role":"우수상 / 새로운 발견상","venue":"현대차그룹 대학 연극 뮤지컬 페스티벌 · 구상성단작전"},
+  {"section":"Awards","year":"2023","title":"HYNPYTOL","medium":"게임","role":"Excellence in Game Design","venue":"2023 BIC Festival, Rookie Division · base0"},
+  {"section":"Awards","year":"","title":"HYNPYTOL","medium":"게임","role":"대학부 제작부문 은상","venue":"2023 GIGDC · base0"},
+  {"section":"Awards","year":"","title":"HYNPYTOL","medium":"게임","role":"크리에이터 픽","venue":"2023 Burning Beaver · base0"},
+  {"section":"Awards","year":"","title":"HYNPYTOL","medium":"게임","role":"대상","venue":"2023 Indieplus Awards · base0"},
+  {"section":"Awards","year":"2024","title":"HYNPYTOL","medium":"게임","role":"이달의 우수게임","venue":"2024 하반기 · base0"}
+];
+
 const defaultWorks = [
   {
     "id": "bathysphere",
@@ -1038,6 +1099,20 @@ function saveWorks() {
   }
 }
 
+const careerStorageKey = 'portfolioCareer';
+let career = loadCareer();
+
+function loadCareer() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(careerStorageKey));
+    return Array.isArray(saved) && saved.length ? saved : structuredClone(defaultCareer);
+  } catch { return structuredClone(defaultCareer); }
+}
+
+function saveCareer() {
+  try { localStorage.setItem(careerStorageKey, JSON.stringify(career)); } catch {}
+}
+
 function getGenres() {
   return [...new Set(works.map((work) => work.genre.split('/')[0].trim()).filter(Boolean))];
 }
@@ -1046,6 +1121,45 @@ function renderAll() {
   renderFilters();
   renderWorks();
   if (isEditorPage) renderEditorList();
+  renderCareer();
+}
+
+function sortedByYear(items, getYear) {
+  let last = '';
+  return items
+    .map(item => { const y = getYear(item); if (y) last = y; return { item, eff: parseInt(last) || 0 }; })
+    .sort((a, b) => b.eff - a.eff)
+    .map(x => x.item);
+}
+
+function renderCareer() {
+  const section = document.querySelector('#career');
+  if (!section) return;
+  const order = [];
+  const groups = {};
+  career.forEach(e => {
+    const s = e.section || '';
+    if (!groups[s]) { groups[s] = []; order.push(s); }
+    groups[s].push(e);
+  });
+  section.querySelectorAll('.career-block').forEach(b => b.remove());
+  order.forEach(secName => {
+    const block = document.createElement('div');
+    block.className = 'career-block';
+    block.innerHTML = `
+      <div class="career-block-header"><span>${escapeHtml(secName)}</span></div>
+      <div class="career-table">
+        ${sortedByYear(groups[secName], e => e.year).map(e => `
+          <div class="career-row">
+            <span class="cy">${escapeHtml(e.year || '')}</span>
+            <span class="ct"><em>${escapeHtml(e.title || '')}</em></span>
+            <span class="cm">${escapeHtml(e.medium || '')}</span>
+            <span class="cr">${escapeHtml(e.role || '')}</span>
+            <span class="cv">${escapeHtml(e.venue || '')}</span>
+          </div>`).join('')}
+      </div>`;
+    section.appendChild(block);
+  });
 }
 
 function renderFilters() {
@@ -1480,6 +1594,91 @@ function formatCredits(str) {
   }).join('<br>');
 }
 
+let editingCareerIndex = -1;
+const careerFields = {
+  section: document.querySelector('#career-section'),
+  year: document.querySelector('#career-year'),
+  title: document.querySelector('#career-title'),
+  medium: document.querySelector('#career-medium'),
+  role: document.querySelector('#career-role'),
+  venue: document.querySelector('#career-venue'),
+};
+const careerForm = document.querySelector('#career-form');
+const careerList = document.querySelector('#editor-career-list');
+
+function fillCareerForm(entry, index) {
+  if (!careerFields.section) return;
+  editingCareerIndex = index ?? -1;
+  const e = entry || {};
+  careerFields.section.value = e.section || '';
+  careerFields.year.value = e.year || '';
+  careerFields.title.value = e.title || '';
+  careerFields.medium.value = e.medium || '';
+  careerFields.role.value = e.role || '';
+  careerFields.venue.value = e.venue || '';
+  updateCareerSectionDatalist();
+}
+
+function updateCareerSectionDatalist() {
+  const dl = document.querySelector('#career-sections-list');
+  if (!dl) return;
+  const sections = [...new Set(career.map(e => e.section).filter(Boolean))];
+  dl.innerHTML = sections.map(s => `<option value="${escapeHtml(s)}">`).join('');
+}
+
+function saveCareerEntry(event) {
+  event.preventDefault();
+  const entry = {
+    section: careerFields.section.value.trim(),
+    year: careerFields.year.value.trim(),
+    title: careerFields.title.value.trim(),
+    medium: careerFields.medium.value.trim(),
+    role: careerFields.role.value.trim(),
+    venue: careerFields.venue.value.trim(),
+  };
+  if (editingCareerIndex >= 0) {
+    career[editingCareerIndex] = entry;
+  } else {
+    career.push(entry);
+  }
+  saveCareer();
+  fillCareerForm(null, -1);
+  renderAll();
+  renderEditorCareerList();
+}
+
+function deleteCareerEntry() {
+  if (editingCareerIndex < 0) return;
+  career.splice(editingCareerIndex, 1);
+  editingCareerIndex = -1;
+  saveCareer();
+  fillCareerForm(null, -1);
+  renderAll();
+  renderEditorCareerList();
+}
+
+function renderEditorCareerList() {
+  if (!careerList) return;
+  const order = [];
+  const groups = {};
+  career.forEach((e, i) => {
+    const s = e.section || '';
+    if (!groups[s]) { groups[s] = []; order.push(s); }
+    groups[s].push({ entry: e, index: i });
+  });
+  careerList.innerHTML = order.map(sec => `
+    <div class="editor-career-group">
+      <div class="editor-career-group-header">${escapeHtml(sec)}</div>
+      ${sortedByYear(groups[sec], x => x.entry.year).map(({ entry: e, index: i }) => `
+        <div class="editor-career-item" data-index="${i}">
+          <span class="eci-year">${escapeHtml(e.year || '·')}</span>
+          <span class="eci-title">${escapeHtml(e.title || '')}</span>
+          <span class="eci-role">${escapeHtml(e.role || '')}</span>
+          <button type="button" class="eci-edit" data-index="${i}">Edit</button>
+        </div>`).join('')}
+    </div>`).join('');
+}
+
 filters.addEventListener('click', (event) => {
   const button = event.target.closest('button[data-genre]');
   if (!button) return;
@@ -1531,10 +1730,19 @@ if (isEditorPage) {
     btn.textContent = 'Saving…';
     btn.disabled = true;
     try {
+      const stripped = works.map((w) => ({
+        ...w,
+        thumb: w.thumb?.startsWith('data:') ? '' : (w.thumb || ''),
+        src: w.src?.startsWith('data:') ? '' : (w.src || ''),
+        media: w.media?.map((m) => ({
+          ...m,
+          src: m.src?.startsWith('data:') ? '' : m.src,
+        })),
+      }));
       const res = await fetch('/save-works', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(works),
+        body: JSON.stringify({ works: stripped, career }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || res.statusText);
@@ -1550,6 +1758,20 @@ if (isEditorPage) {
     dialog.close();
     editWork(selectedWorkId);
   });
+  if (careerForm) {
+    careerForm.addEventListener('submit', saveCareerEntry);
+    document.querySelector('#career-new')?.addEventListener('click', () => fillCareerForm(null, -1));
+    document.querySelector('#career-delete')?.addEventListener('click', deleteCareerEntry);
+    careerList?.addEventListener('click', e => {
+      const btn = e.target.closest('.eci-edit');
+      if (btn) {
+        const i = parseInt(btn.dataset.index);
+        fillCareerForm(career[i], i);
+      }
+    });
+    fillCareerForm(null, -1);
+    renderEditorCareerList();
+  }
 }
 detailMedia.addEventListener('click', (event) => {
   const btn = event.target.closest('.carousel-btn[data-dir]');

@@ -26,17 +26,25 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         length = int(self.headers.get('Content-Length', 0))
         body = self.rfile.read(length)
         try:
-            works = json.loads(body)
+            data = json.loads(body)
+            if isinstance(data, list):
+                works = data
+                career = None
+            else:
+                works = data.get('works', [])
+                career = data.get('career')
+
             script_path = ROOT / 'script.js'
             content = script_path.read_text(encoding='utf-8')
             marker = '\nfunction getThumb'
             idx = content.index(marker)
-            new_content = (
-                'const defaultWorks = '
-                + json.dumps(works, ensure_ascii=False, indent=2)
-                + ';\n'
-                + content[idx:]
-            )
+
+            parts = []
+            if career is not None:
+                parts.append('const defaultCareer = ' + json.dumps(career, ensure_ascii=False, indent=2) + ';\n')
+            parts.append('const defaultWorks = ' + json.dumps(works, ensure_ascii=False, indent=2) + ';\n')
+            new_content = '\n'.join(parts) + content[idx:]
+
             script_path.write_text(new_content, encoding='utf-8')
             self._update_thumbs(works)
             self._respond(200, {'ok': True})

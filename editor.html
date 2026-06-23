@@ -150,6 +150,46 @@
         <div class="editor-list" id="editor-list" aria-label="Editable works"></div>
       </section>
 
+      <section class="editor-section" id="editor-career-section">
+        <div class="section-label">
+          <span>Experience</span>
+          <span id="editor-career-mode">New Entry</span>
+        </div>
+        <form class="editor-form" id="career-form">
+          <label>
+            <span>Section</span>
+            <input id="career-section" list="career-sections-list" placeholder="Theatre &amp; Film, Design, Exhibition..." />
+            <datalist id="career-sections-list"></datalist>
+          </label>
+          <label>
+            <span>Year</span>
+            <input id="career-year" placeholder="2025" />
+          </label>
+          <label class="wide">
+            <span>Title</span>
+            <input id="career-title" placeholder="작품명" />
+          </label>
+          <label>
+            <span>Medium</span>
+            <input id="career-medium" placeholder="연극, 무용, 게임..." />
+          </label>
+          <label>
+            <span>Role</span>
+            <input id="career-role" placeholder="음향 / 음악" />
+          </label>
+          <label class="wide">
+            <span>Venue</span>
+            <input id="career-venue" placeholder="공연장 · 단체" />
+          </label>
+          <div class="editor-actions wide">
+            <button type="submit">Save</button>
+            <button type="button" id="career-new">New</button>
+            <button type="button" id="career-delete">Delete</button>
+          </div>
+        </form>
+        <div id="editor-career-list" class="editor-career-list"></div>
+      </section>
+
       <section class="controls" aria-label="Work filters">
         <div class="search-wrap">
           <span aria-hidden="true">Search</span>
@@ -185,6 +225,6 @@
     </dialog>
 
     <script src="thumbs.js"></script>
-    <script src="script.js?v=20260623-yt2"></script>
+    <script src="script.js?v=20260623-career"></script>
   </body>
 </html>
