@@ -977,7 +977,7 @@ code {
 
 .career-row {
   display: grid;
-  grid-template-columns: 44px 1fr 100px 160px 1fr;
+  grid-template-columns: 44px 1fr 100px 160px 1fr 120px;
   border-bottom: 1px solid var(--soft-line);
   font-size: 14px;
   line-height: 1.4;
@@ -1025,6 +1025,11 @@ code {
   font-size: 12px;
 }
 
+.cb {
+  color: var(--muted);
+  font-size: 12px;
+}
+
 @media (max-width: 720px) {
   .career-row {
     grid-template-columns: 44px 1fr;
@@ -1061,6 +1066,10 @@ code {
   }
 
   .cv {
+    display: none;
+  }
+
+  .cb {
     display: none;
   }
 }

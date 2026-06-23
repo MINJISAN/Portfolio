@@ -1,62 +1,516 @@
 const defaultCareer = [
-  {"section":"Theatre & Film","year":"2018","title":"타오르는 어둠 속에서","medium":"연극","role":"음향","venue":"서강대학교 메리홀 · 서강연극회"},
-  {"section":"Theatre & Film","year":"","title":"올모스트 메인 / 거의 엘렉트라","medium":"연극","role":"음향","venue":"서강대학교 메리홀 · 서강연극회"},
-  {"section":"Theatre & Film","year":"","title":"이것은 발레공연입니다","medium":"연극","role":"음향","venue":"2018 서울프린지페스티벌 · 사단법인 학교밖청소년학교"},
-  {"section":"Theatre & Film","year":"","title":"10 : 4 3 2 1","medium":"퍼포먼스","role":"공동연출 / 음악 / 영상","venue":"서강대학교 이머시브 홀 · ㅁㅂㅅㅇ"},
-  {"section":"Theatre & Film","year":"","title":"합격을기원합니다","medium":"거리극","role":"아트디렉터 / 음향 / 음악","venue":"제1회 신촌거리예술축제 · 사단법인 학교밖청소년학교"},
-  {"section":"Theatre & Film","year":"2019","title":"합격을기원합니다","medium":"단편영화","role":"공동연출","venue":"사단법인 학교밖청소년학교"},
-  {"section":"Theatre & Film","year":"","title":"합격을기원합니다_안산","medium":"거리극","role":"아트디렉터 / 음향 / 음악","venue":"2019 안산국제거리극축제 · 사단법인 학교밖청소년학교"},
-  {"section":"Theatre & Film","year":"","title":"별무리","medium":"연극","role":"공동연출 / 음향 / 음악 / 영상","venue":"서강대학교 메리홀 · 구상성단작전"},
-  {"section":"Theatre & Film","year":"","title":"봄","medium":"퍼포먼스","role":"음향감독","venue":"2019 ATC"},
-  {"section":"Theatre & Film","year":"2020","title":"별무리","medium":"연극","role":"공동연출 / 음향 / 음악 / 영상","venue":"현대차그룹 대학 연극 뮤지컬 페스티벌 · 구상성단작전"},
-  {"section":"Theatre & Film","year":"2021","title":"데미안 비더게부르트","medium":"연극","role":"영상","venue":"부평아트센터 달누리 극장 · 극공작소 마방진"},
-  {"section":"Theatre & Film","year":"","title":"오래된 믿음","medium":"퍼포먼스","role":"음향 / 음악","venue":"1M SPACE · 구상성단작전"},
-  {"section":"Theatre & Film","year":"2022","title":"종의 기원","medium":"뮤지컬","role":"영상","venue":"대학로 드림아트센터 · 뷰티풀웨이"},
-  {"section":"Theatre & Film","year":"","title":"마녀의 숲","medium":"연극","role":"음향 / 음악","venue":"창작예술집단 보광극장 · 팀 시도"},
-  {"section":"Theatre & Film","year":"","title":"스푸트니크","medium":"연극","role":"음향 / 음악","venue":"서강대학교 이머시브 홀 · 프로젝트 운동장"},
-  {"section":"Theatre & Film","year":"","title":"CR3ATURE","medium":"단편영화","role":"연출 / 영상 / 음향 / 배우","venue":""},
-  {"section":"Theatre & Film","year":"2023","title":"반려중입니다. 메세지를 남겨주세요.","medium":"연극","role":"기술지원 / 영상","venue":"한국예술종합학교 연극원"},
-  {"section":"Theatre & Film","year":"","title":"이, 별","medium":"연극","role":"음향 / 음악","venue":"대한민국 신진연출가전 브릿지 · 팀 나선"},
-  {"section":"Theatre & Film","year":"","title":"인-이어","medium":"연극","role":"영상 / 음악","venue":"데뷔를 대비하라 · 노세인"},
-  {"section":"Theatre & Film","year":"2024","title":"포천 군번 없는 영웅 독수리 유격대","medium":"연극","role":"영상","venue":"포천 반월아트홀 소극장 · 포천시립극단"},
-  {"section":"Theatre & Film","year":"","title":"BARCODE","medium":"영상","role":"영상 / 음악","venue":"TOB Group"},
-  {"section":"Theatre & Film","year":"2025","title":"술을 먹고 발톱을 깎았더니 손톱이 짧아졌다","medium":"연극","role":"음향 / 음악","venue":"한국예술종합학교 실험무대"},
-  {"section":"Theatre & Film","year":"","title":"BARCODE","medium":"무용","role":"음향 / 음악","venue":"2025 PAMS · TOB Group"},
-  {"section":"Theatre & Film","year":"","title":"Prompt Body","medium":"무용","role":"음악","venue":"제46회 서울무용제 · 박정무"},
-  {"section":"Design","year":"2019","title":"계절풍","medium":"시각디자인","role":"아트워크","venue":"때와곳"},
-  {"section":"Design","year":"2020","title":"몬순","medium":"시각디자인","role":"아트워크","venue":"때와곳"},
-  {"section":"Design","year":"","title":"생일여정","medium":"시각디자인","role":"아트워크","venue":"때와곳"},
-  {"section":"Design","year":"2021","title":"설뜨린 잠","medium":"시각디자인","role":"아트워크","venue":"때와곳"},
-  {"section":"Design","year":"","title":"줄다리기","medium":"시각디자인","role":"아트워크","venue":"때와곳"},
-  {"section":"Design","year":"2022","title":"2004 시모노세키","medium":"시각디자인","role":"아트워크","venue":"때와곳"},
-  {"section":"Design","year":"","title":"sunsetblue","medium":"시각디자인","role":"아트워크","venue":"김갑세"},
-  {"section":"Design","year":"2023","title":"범람","medium":"시각디자인","role":"아트워크","venue":"때와곳"},
-  {"section":"Exhibition","year":"2017","title":"0 94376 91475 7","medium":"인터랙티브 비디오아트","role":"기획 / 영상","venue":"2017 이멀시브 콘테스트 · 민지산박세원"},
-  {"section":"Exhibition","year":"2018","title":"사물이 거울에 보이는 것보다 가까이 있음","medium":"인터랙티브 미디어아트","role":"영상보조","venue":"HCI Korea 2018"},
-  {"section":"Exhibition","year":"","title":"시차(視差)","medium":"미디어아트","role":"기획 / 영상","venue":"서울스카이, 미디어아트를 새기다 展 · 민지산박세원"},
-  {"section":"Exhibition","year":"","title":"상관없는 표 / useless table","medium":"설치","role":"시각디자인","venue":"서울세계불꽃축제 2018 · 민지산박세원"},
-  {"section":"Exhibition","year":"","title":"피륙elapse","medium":"설치","role":"기획 / 영상","venue":"서대문여관아트페어 · 민지산박세원"},
-  {"section":"Exhibition","year":"2019","title":"10 : 4 3 2 1","medium":"영상설치","role":"공동연출 / 음악 / 영상","venue":"유진상상 프로젝트 · ㅁㅂㅅㅇ"},
-  {"section":"Exhibition","year":"","title":"시차(視差)","medium":"미디어아트","role":"기획 / 영상","venue":"제1회 롯데타워 미디어아트 어워드 기획전 · 민지산박세원"},
-  {"section":"Exhibition","year":"2020","title":"문화예술기획자를 위한 TRPG","medium":"기획프로젝트","role":"디자인 / 제작","venue":"아르코 차세대열전 2019! · 남현욱"},
-  {"section":"Exhibition","year":"2023","title":"HYNPYTOL","medium":"게임","role":"게임 디렉터","venue":"2023 BIC Festival · base0"},
-  {"section":"Exhibition","year":"","title":"가브리엘의 나팔","medium":"인터랙티브 미디어아트","role":"기획 / 음악 / 작가","venue":"2023 Art & Technology Conference · PCM"},
-  {"section":"Exhibition","year":"","title":"HYNPYTOL","medium":"게임","role":"게임 디렉터","venue":"2023 Burning Beaver · base0"},
-  {"section":"Exhibition","year":"2024","title":"HYNPYTOL","medium":"게임","role":"게임 디렉터","venue":"2024 PlayX4 · base0"},
-  {"section":"Exhibition","year":"","title":"HYNPYTOL","medium":"게임","role":"게임 디렉터","venue":"2024 GES · base0"},
-  {"section":"Exhibition","year":"","title":"HYNPYTOL","medium":"게임","role":"게임 디렉터","venue":"2024 G-STAR · base0"},
-  {"section":"Exhibition","year":"2025","title":"BATHYSPHERE","medium":"게임","role":"게임 디렉터","venue":"2025 PlayX4 · base0"},
-  {"section":"Exhibition","year":"","title":"BATHYSPHERE","medium":"게임","role":"게임 디렉터","venue":"2025 BIC Festival · base0"},
-  {"section":"Exhibition","year":"","title":"BATHYSPHERE","medium":"게임","role":"게임 디렉터","venue":"2025 Beaver Rocks · base0"},
-  {"section":"Exhibition","year":"2026","title":"BATHYSPHERE","medium":"게임","role":"게임 디렉터","venue":"2026 TIGS · base0"},
-  {"section":"Awards","year":"2017","title":"0 94376 91475 7","medium":"인터랙티브 비디오아트","role":"우수상","venue":"2017 이멀시브 콘테스트 · 민지산박세원"},
-  {"section":"Awards","year":"2019","title":"시차(視差)","medium":"비디오아트","role":"우수상","venue":"제1회 롯데타워 미디어아트 어워드 · 민지산박세원"},
-  {"section":"Awards","year":"2020","title":"별무리","medium":"연극","role":"우수상 / 새로운 발견상","venue":"현대차그룹 대학 연극 뮤지컬 페스티벌 · 구상성단작전"},
-  {"section":"Awards","year":"2023","title":"HYNPYTOL","medium":"게임","role":"Excellence in Game Design","venue":"2023 BIC Festival, Rookie Division · base0"},
-  {"section":"Awards","year":"","title":"HYNPYTOL","medium":"게임","role":"대학부 제작부문 은상","venue":"2023 GIGDC · base0"},
-  {"section":"Awards","year":"","title":"HYNPYTOL","medium":"게임","role":"크리에이터 픽","venue":"2023 Burning Beaver · base0"},
-  {"section":"Awards","year":"","title":"HYNPYTOL","medium":"게임","role":"대상","venue":"2023 Indieplus Awards · base0"},
-  {"section":"Awards","year":"2024","title":"HYNPYTOL","medium":"게임","role":"이달의 우수게임","venue":"2024 하반기 · base0"}
+  {
+    "section": "Theatre & Film",
+    "year": "2018",
+    "title": "타오르는 어둠 속에서",
+    "medium": "연극",
+    "role": "음향",
+    "venue": "서강대학교 메리홀 · 서강연극회"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "",
+    "title": "올모스트 메인 / 거의 엘렉트라",
+    "medium": "연극",
+    "role": "음향",
+    "venue": "서강대학교 메리홀 · 서강연극회"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "",
+    "title": "이것은 발레공연입니다",
+    "medium": "연극",
+    "role": "음향",
+    "venue": "2018 서울프린지페스티벌 · 사단법인 학교밖청소년학교"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "",
+    "title": "10 : 4 3 2 1",
+    "medium": "퍼포먼스",
+    "role": "공동연출 / 음악 / 영상",
+    "venue": "서강대학교 이머시브 홀 · ㅁㅂㅅㅇ"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "",
+    "title": "합격을기원합니다",
+    "medium": "거리극",
+    "role": "아트디렉터 / 음향 / 음악",
+    "venue": "제1회 신촌거리예술축제 · 사단법인 학교밖청소년학교"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "2019",
+    "title": "합격을기원합니다",
+    "medium": "단편영화",
+    "role": "공동연출",
+    "venue": "사단법인 학교밖청소년학교"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "",
+    "title": "합격을기원합니다_안산",
+    "medium": "거리극",
+    "role": "아트디렉터 / 음향 / 음악",
+    "venue": "2019 안산국제거리극축제 · 사단법인 학교밖청소년학교"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "",
+    "title": "별무리",
+    "medium": "연극",
+    "role": "공동연출 / 음향 / 음악 / 영상",
+    "venue": "서강대학교 메리홀 · 구상성단작전"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "",
+    "title": "봄",
+    "medium": "퍼포먼스",
+    "role": "음향감독",
+    "venue": "2019 ATC"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "2020",
+    "title": "별무리",
+    "medium": "연극",
+    "role": "공동연출 / 음향 / 음악 / 영상",
+    "venue": "현대차그룹 대학 연극 뮤지컬 페스티벌 · 구상성단작전"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "2021",
+    "title": "데미안 비더게부르트",
+    "medium": "연극",
+    "role": "영상",
+    "venue": "부평아트센터 달누리 극장 · 극공작소 마방진"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "",
+    "title": "오래된 믿음",
+    "medium": "퍼포먼스",
+    "role": "음향 / 음악",
+    "venue": "1M SPACE · 구상성단작전"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "2022",
+    "title": "종의 기원",
+    "medium": "뮤지컬",
+    "role": "영상",
+    "venue": "대학로 드림아트센터 · 뷰티풀웨이"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "",
+    "title": "마녀의 숲",
+    "medium": "연극",
+    "role": "음향 / 음악",
+    "venue": "창작예술집단 보광극장 · 팀 시도"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "",
+    "title": "스푸트니크",
+    "medium": "연극",
+    "role": "음향 / 음악",
+    "venue": "서강대학교 이머시브 홀 · 프로젝트 운동장"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "",
+    "title": "CR3ATURE",
+    "medium": "단편영화",
+    "role": "연출 / 영상 / 음향 / 배우",
+    "venue": ""
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "2023",
+    "title": "반려중입니다. 메세지를 남겨주세요.",
+    "medium": "연극",
+    "role": "기술지원 / 영상",
+    "venue": "한국예술종합학교 연극원"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "",
+    "title": "이, 별",
+    "medium": "연극",
+    "role": "음향 / 음악",
+    "venue": "대한민국 신진연출가전 브릿지 · 팀 나선"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "",
+    "title": "인-이어",
+    "medium": "연극",
+    "role": "영상 / 음악",
+    "venue": "데뷔를 대비하라 · 노세인"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "2024",
+    "title": "포천 군번 없는 영웅 독수리 유격대",
+    "medium": "연극",
+    "role": "영상",
+    "venue": "포천 반월아트홀 소극장 · 포천시립극단"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "",
+    "title": "BARCODE",
+    "medium": "영상",
+    "role": "영상 / 음악",
+    "venue": "TOB Group"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "2025",
+    "title": "술을 먹고 발톱을 깎았더니 손톱이 짧아졌다",
+    "medium": "연극",
+    "role": "음향 / 음악",
+    "venue": "한국예술종합학교 실험무대"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "",
+    "title": "BARCODE",
+    "medium": "무용",
+    "role": "음향 / 음악",
+    "venue": "2025 PAMS · TOB Group"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "",
+    "title": "Prompt Body",
+    "medium": "무용",
+    "role": "음악",
+    "venue": "제46회 서울무용제 · 박정무"
+  },
+  {
+    "section": "Design",
+    "year": "2019",
+    "title": "계절풍",
+    "medium": "시각디자인",
+    "role": "아트워크",
+    "venue": "때와곳"
+  },
+  {
+    "section": "Design",
+    "year": "2020",
+    "title": "몬순",
+    "medium": "시각디자인",
+    "role": "아트워크",
+    "venue": "때와곳"
+  },
+  {
+    "section": "Design",
+    "year": "",
+    "title": "생일여정",
+    "medium": "시각디자인",
+    "role": "아트워크",
+    "venue": "때와곳"
+  },
+  {
+    "section": "Design",
+    "year": "2021",
+    "title": "설뜨린 잠",
+    "medium": "시각디자인",
+    "role": "아트워크",
+    "venue": "때와곳"
+  },
+  {
+    "section": "Design",
+    "year": "",
+    "title": "줄다리기",
+    "medium": "시각디자인",
+    "role": "아트워크",
+    "venue": "때와곳"
+  },
+  {
+    "section": "Design",
+    "year": "2022",
+    "title": "2004 시모노세키",
+    "medium": "시각디자인",
+    "role": "아트워크",
+    "venue": "때와곳"
+  },
+  {
+    "section": "Design",
+    "year": "",
+    "title": "sunsetblue",
+    "medium": "시각디자인",
+    "role": "아트워크",
+    "venue": "김갑세"
+  },
+  {
+    "section": "Design",
+    "year": "2023",
+    "title": "범람",
+    "medium": "시각디자인",
+    "role": "아트워크",
+    "venue": "때와곳"
+  },
+  {
+    "section": "Exhibition",
+    "year": "2017",
+    "title": "0 94376 91475 7",
+    "medium": "인터랙티브 비디오아트",
+    "role": "기획 / 영상",
+    "venue": "2017 이멀시브 콘테스트 · 민지산박세원"
+  },
+  {
+    "section": "Exhibition",
+    "year": "2018",
+    "title": "사물이 거울에 보이는 것보다 가까이 있음",
+    "medium": "인터랙티브 미디어아트",
+    "role": "영상보조",
+    "venue": "HCI Korea 2018"
+  },
+  {
+    "section": "Exhibition",
+    "year": "",
+    "title": "시차(視差)",
+    "medium": "미디어아트",
+    "role": "기획 / 영상",
+    "venue": "서울스카이, 미디어아트를 새기다 展 · 민지산박세원"
+  },
+  {
+    "section": "Exhibition",
+    "year": "",
+    "title": "상관없는 표 / useless table",
+    "medium": "설치",
+    "role": "시각디자인",
+    "venue": "서울세계불꽃축제 2018 · 민지산박세원"
+  },
+  {
+    "section": "Exhibition",
+    "year": "",
+    "title": "피륙elapse",
+    "medium": "퍼포먼스 / 설치",
+    "role": "기획 / 영상",
+    "venue": "이멀시브 홀 / 서대문여관아트페어 · 민지산박세원"
+  },
+  {
+    "section": "Exhibition",
+    "year": "2019",
+    "title": "10 : 4 3 2 1",
+    "medium": "영상설치",
+    "role": "공동연출 / 음악 / 영상",
+    "venue": "유진상상 프로젝트 · ㅁㅂㅅㅇ"
+  },
+  {
+    "section": "Exhibition",
+    "year": "",
+    "title": "시차(視差)",
+    "medium": "미디어아트",
+    "role": "기획 / 영상",
+    "venue": "제1회 롯데타워 미디어아트 어워드 기획전 · 민지산박세원"
+  },
+  {
+    "section": "Exhibition",
+    "year": "2020",
+    "title": "문화예술기획자를 위한 TRPG",
+    "medium": "기획프로젝트",
+    "role": "디자인 / 제작",
+    "venue": "아르코 차세대열전 2019! · 남현욱"
+  },
+  {
+    "section": "Exhibition",
+    "year": "2023",
+    "title": "HYNPYTOL",
+    "medium": "게임",
+    "role": "게임 디렉터",
+    "venue": "2023 BIC Festival · base0"
+  },
+  {
+    "section": "Exhibition",
+    "year": "",
+    "title": "가브리엘의 나팔",
+    "medium": "인터랙티브 미디어아트",
+    "role": "기획 / 음악 / 작가",
+    "venue": "2023 Art & Technology Conference · PCM"
+  },
+  {
+    "section": "Exhibition",
+    "year": "",
+    "title": "HYNPYTOL",
+    "medium": "게임",
+    "role": "게임 디렉터",
+    "venue": "2023 Burning Beaver · base0"
+  },
+  {
+    "section": "Exhibition",
+    "year": "2024",
+    "title": "HYNPYTOL",
+    "medium": "게임",
+    "role": "게임 디렉터",
+    "venue": "2024 PlayX4 · base0"
+  },
+  {
+    "section": "Exhibition",
+    "year": "",
+    "title": "HYNPYTOL",
+    "medium": "게임",
+    "role": "게임 디렉터",
+    "venue": "2024 GES · base0"
+  },
+  {
+    "section": "Exhibition",
+    "year": "",
+    "title": "HYNPYTOL",
+    "medium": "게임",
+    "role": "게임 디렉터",
+    "venue": "2024 G-STAR · base0"
+  },
+  {
+    "section": "Exhibition",
+    "year": "2025",
+    "title": "BATHYSPHERE",
+    "medium": "게임",
+    "role": "게임 디렉터",
+    "venue": "2025 PlayX4 · base0"
+  },
+  {
+    "section": "Exhibition",
+    "year": "",
+    "title": "BATHYSPHERE",
+    "medium": "게임",
+    "role": "게임 디렉터",
+    "venue": "2025 BIC Festival · base0"
+  },
+  {
+    "section": "Exhibition",
+    "year": "",
+    "title": "BATHYSPHERE",
+    "medium": "게임",
+    "role": "게임 디렉터",
+    "venue": "2025 Beaver Rocks · base0"
+  },
+  {
+    "section": "Exhibition",
+    "year": "2026",
+    "title": "BATHYSPHERE",
+    "medium": "게임",
+    "role": "게임 디렉터",
+    "venue": "2026 TIGS · base0"
+  },
+  {
+    "section": "Awards",
+    "year": "2017",
+    "title": "0 94376 91475 7",
+    "medium": "인터랙티브 비디오아트",
+    "role": "우수상",
+    "venue": "2017 이멀시브 콘테스트 · 민지산박세원"
+  },
+  {
+    "section": "Awards",
+    "year": "2019",
+    "title": "시차(視差)",
+    "medium": "비디오아트",
+    "role": "우수상",
+    "venue": "제1회 롯데타워 미디어아트 어워드 · 민지산박세원"
+  },
+  {
+    "section": "Awards",
+    "year": "2020",
+    "title": "별무리",
+    "medium": "연극",
+    "role": "우수상 / 새로운 발견상",
+    "venue": "현대차그룹 대학 연극 뮤지컬 페스티벌 · 구상성단작전"
+  },
+  {
+    "section": "Awards",
+    "year": "2023",
+    "title": "HYNPYTOL",
+    "medium": "게임",
+    "role": "Excellence in Game Design",
+    "venue": "2023 BIC Festival, Rookie Division · base0"
+  },
+  {
+    "section": "Awards",
+    "year": "",
+    "title": "HYNPYTOL",
+    "medium": "게임",
+    "role": "대학부 제작부문 은상",
+    "venue": "2023 GIGDC · base0"
+  },
+  {
+    "section": "Awards",
+    "year": "",
+    "title": "HYNPYTOL",
+    "medium": "게임",
+    "role": "크리에이터 픽",
+    "venue": "2023 Burning Beaver · base0"
+  },
+  {
+    "section": "Awards",
+    "year": "",
+    "title": "HYNPYTOL",
+    "medium": "게임",
+    "role": "대상",
+    "venue": "2023 Indieplus Awards · base0"
+  },
+  {
+    "section": "Awards",
+    "year": "2024",
+    "title": "HYNPYTOL",
+    "medium": "게임",
+    "role": "이달의 우수게임",
+    "venue": "2024 하반기 · base0"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "2026",
+    "title": "아고라포비아",
+    "medium": "연극",
+    "role": "기술감독",
+    "venue": "문래예술공장 박스씨어터 · 극단 요새"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "",
+    "title": "이 아름다운 마을",
+    "medium": "연극",
+    "role": "기술지원",
+    "venue": "이어령 예술극장 · 한국예술종합학교 연극원"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "2025",
+    "title": "타이터스",
+    "medium": "연극",
+    "role": "기술지원",
+    "venue": "이어령 예술극장 · 한국예술종합학교 연극원"
+  },
+  {
+    "section": "Theatre & Film",
+    "year": "2024",
+    "title": "제일 가까운 장애인 화장실이 어디죠?",
+    "medium": "연극",
+    "role": "기술감독",
+    "venue": "카페 에이치 · 프로젝트 레디메이드"
+  },
+  {
+    "section": "Exhibition",
+    "year": "2024",
+    "title": "HYNPYTOL",
+    "medium": "게임",
+    "role": "게임 디렉터",
+    "venue": "2024 서울코믹월드 SUMMER · base0"
+  },
+  {
+    "section": "Exhibition",
+    "year": "2024",
+    "title": "HYNPYTOL",
+    "medium": "게임",
+    "role": "게임 디렉터",
+    "venue": "2024 서울코믹월드 WINTER · base0"
+  }
 ];
 
 const defaultWorks = [
@@ -781,7 +1235,7 @@ const defaultWorks = [
     "year": "2018",
     "type": "video",
     "status": "Complete",
-    "thumb": "assets/works/sicha-thumb.jpg",
+    "thumb": "assets/works/sicha/시차.jpg",
     "src": "",
     "description": "높은 곳에 올라가서 서울을 내려다보면, 그 수많은 빛 하나하나에 삶이 있다. 저 멀리 정체된 자동차의 헤드라이트 무리, 높디높은 아파트들과 바닥에 붙어있는 작은 집들, 바쁘게 걷는 먼지 같은 점들과 보이지 않는 곳에 수많은 사람들이 멍하게 서 있을 땅속 지하철까지. 지평선을 따라 다른 땅이 채워져 있는 풍경은 마치 하나의 행성을 떠올리게 한다. <시차(視差)>는 \"서울\"이라는 행성에 살아가는 집단의 이야기이다.\n\n<시차(視差)>는 롯데타워라는 공간성에서 시작하여, 전망대에서 본 서울의 풍경을 기반으로 하여 하나의 행성으로 표현한다. 우측의 스크린에는 서울의 특정 지역을 행성화한 영상이 재생되고, 좌측 스크린에서는 그 행성 속 다양한 일상의 모습을 포착한 영상이 재생된다.",
     "role": "기획 / 영상",
@@ -791,7 +1245,9 @@ const defaultWorks = [
     "note": "2019 제1회 롯데타워 미디어아트 어워드 우수상",
     "credits": "민지산박세원",
     "youtube": "https://youtu.be/efCtsqHUHqM",
-    "by": "민지산박세원"
+    "by": "민지산박세원",
+    "youtube2": "",
+    "ytThumbCustom": false
   },
   {
     "id": "10-4-3-2-1",
@@ -906,7 +1362,7 @@ const defaultWorks = [
     "year": "2017",
     "type": "image",
     "status": "Complete",
-    "thumb": "assets/works/0-94376/2.png",
+    "thumb": "assets/works/0-94376/KakaoTalk_20171120_102902388.jpg",
     "src": "assets/works/0-94376/KakaoTalk_20171120_102902388.jpg",
     "link": "Resource/pdf/0-94376.pdf",
     "description": "기획\n언어는 기표와 기의의 결합으로 탄생하는 기호이다. 하지만 우리는 언어 그 자체가 의미라고 생각한다. 그렇기에 단순한 언어의 교환 자체를 의미의 공유, 즉 소통이라고 여긴다. 이는 우리가 ‘우리가 갖는 언어에 대한 맹신’에서 빠져나오지 못하고 있는 것은 아닌지 의문을 불러 일으킨다.\n\n부조리극은 여타의 실존주의 연극과 다르게 부조리한 현실을 있는 그대로의 부조리한 방식으로 보여 준다. <0 94376 91475 7>은 이러한 방향성을 그대로 유지한다. 다만, 전달하는 매체의 변주를 통해 다른 효과적인 방식을 탐구해보고자 한다. \n\n이 시도는 크게 두 갈 래로 나눌 수 있다. 하나는 라이브 공연에서의 한계를 뛰어넘을 수 있는 영상적 시도이며, 또 하나는 프로젝션을 활용해 관객이 작품의 일부(행위자)가 되는 공간적 시도이다.\n\n관람 방식\n무대에는 마주 본 두 개의 의자만 놓여 있고, 오직 관객 두 명만이 작품을 관람할 수 있다. 언어와 기호로 점철된 넓은 공간에서 소통할 수 있는 대상은 오직 서로뿐이다.\n\n정면 스크린을 향한 자리에 놓인 관객은, 눈앞의 관객보다는 영상에 시선을 집중한다.\n\n하지만 정면 스크린을 등지고 앉아있는 관객이 볼 수 있는 것은 눈앞의 또 다른 관객뿐이다.\n\n두 관객은 명령에 맞춰 자리를 맞바꾸어가며 같은 시간, 같은 공간에서 같은 작품을 감상하지만, 이들이 관람한 것은 같을 수 없다. 일상의 대화에서 우린 서로 같은 언어로 의미를 교환하고 있다고 여기지만 그럼에도 각자가 받아들이는 의미가 상이한 것과 같다.",
@@ -931,7 +1387,9 @@ const defaultWorks = [
         "src": "assets/works/0-94376/KakaoTalk_20260621_132528439_03.jpg"
       }
     ],
-    "by": "민지산박세원"
+    "by": "민지산박세원",
+    "youtube2": "",
+    "ytThumbCustom": false
   },
   {
     "id": "s-o-s-mqnb6ad1",
@@ -1149,14 +1607,25 @@ function renderCareer() {
     block.innerHTML = `
       <div class="career-block-header"><span>${escapeHtml(secName)}</span></div>
       <div class="career-table">
-        ${sortedByYear(groups[secName], e => e.year).map(e => `
+        ${(() => {
+          let lastYear = '';
+          return sortedByYear(groups[secName], e => e.year).map(e => {
+            const showYear = e.year && e.year !== lastYear;
+            if (showYear) lastYear = e.year;
+            const lastDot = (e.venue || '').lastIndexOf(' · ');
+            const venue = lastDot >= 0 ? e.venue.slice(0, lastDot) : (e.venue || '');
+            const by = lastDot >= 0 ? e.venue.slice(lastDot + 3) : '';
+            return `
           <div class="career-row">
-            <span class="cy">${escapeHtml(e.year || '')}</span>
+            <span class="cy">${escapeHtml(showYear ? e.year : '')}</span>
             <span class="ct"><em>${escapeHtml(e.title || '')}</em></span>
             <span class="cm">${escapeHtml(e.medium || '')}</span>
             <span class="cr">${escapeHtml(e.role || '')}</span>
-            <span class="cv">${escapeHtml(e.venue || '')}</span>
-          </div>`).join('')}
+            <span class="cv">${escapeHtml(venue)}</span>
+            <span class="cb">${escapeHtml(by)}</span>
+          </div>`;
+          }).join('');
+        })()}
       </div>`;
     section.appendChild(block);
   });
@@ -1602,6 +2071,7 @@ const careerFields = {
   medium: document.querySelector('#career-medium'),
   role: document.querySelector('#career-role'),
   venue: document.querySelector('#career-venue'),
+  by: document.querySelector('#career-by'),
 };
 const careerForm = document.querySelector('#career-form');
 const careerList = document.querySelector('#editor-career-list');
@@ -1615,7 +2085,9 @@ function fillCareerForm(entry, index) {
   careerFields.title.value = e.title || '';
   careerFields.medium.value = e.medium || '';
   careerFields.role.value = e.role || '';
-  careerFields.venue.value = e.venue || '';
+  const lastDot = (e.venue || '').lastIndexOf(' · ');
+  careerFields.venue.value = lastDot >= 0 ? e.venue.slice(0, lastDot) : (e.venue || '');
+  if (careerFields.by) careerFields.by.value = lastDot >= 0 ? e.venue.slice(lastDot + 3) : '';
   updateCareerSectionDatalist();
 }
 
@@ -1628,13 +2100,15 @@ function updateCareerSectionDatalist() {
 
 function saveCareerEntry(event) {
   event.preventDefault();
+  const venuePart = careerFields.venue.value.trim();
+  const byPart = careerFields.by?.value.trim() || '';
   const entry = {
     section: careerFields.section.value.trim(),
     year: careerFields.year.value.trim(),
     title: careerFields.title.value.trim(),
     medium: careerFields.medium.value.trim(),
     role: careerFields.role.value.trim(),
-    venue: careerFields.venue.value.trim(),
+    venue: byPart ? `${venuePart} · ${byPart}` : venuePart,
   };
   if (editingCareerIndex >= 0) {
     career[editingCareerIndex] = entry;
