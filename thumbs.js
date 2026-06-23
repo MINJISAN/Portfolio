@@ -12,7 +12,7 @@ const thumbMap = {
   'cr3ature': 'assets/works/cr3ature/15.png',
   'demian': 'assets/works/demian/274923_95702_4611.png',
   'gabriel': 'assets/works/gabriel/gabriel_thumb.png',
-  'gyejeolpung': 'assets/works/gyejeolpung/무뢰배 시안2.png',
+  'gyejeolpung': 'assets/works/gyejeolpung/바늘구멍하늘 시안1.png',
   'hapgyeok': 'assets/works/hapgyeok/합격을기원합니다썸넬가안.png',
   'hapgyeok-ansan': 'assets/works/hapgyeok-ansan/안산(3).jpg',
   'hapgyeok-film': 'assets/works/hapgyeok-film/합격을기원합니다 엽서 앞면 png.png',

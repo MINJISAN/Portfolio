@@ -1048,7 +1048,7 @@ const defaultWorks = [
     "note": "",
     "credits": "",
     "youtube": "",
-    "thumb": "assets/works/gyejeolpung/무뢰배 시안2.png",
+    "thumb": "assets/works/gyejeolpung/바늘구멍하늘 시안1.png",
     "by": "때와곳",
     "media": [
       {
@@ -1067,7 +1067,9 @@ const defaultWorks = [
         "type": "image",
         "src": "assets/works/gyejeolpung/탑 시안1.png"
       }
-    ]
+    ],
+    "youtube2": "",
+    "ytThumbCustom": false
   },
   {
     "id": "byeolmuri",
@@ -1109,7 +1111,9 @@ const defaultWorks = [
         "type": "image",
         "src": "assets/works/byeolmuri/별무리 엽서 점버전 시안 1.png"
       }
-    ]
+    ],
+    "youtube2": "",
+    "ytThumbCustom": false
   },
   {
     "id": "amugotdo",
